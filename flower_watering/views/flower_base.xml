@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <!-- القائمة الرئيسية -->
+    <menuitem id="menu_plant_watering_root"
+              name="Plant Watering"
+              web_icon="flower_watering,static\src\img\flower_watering1.png"
+              sequence="10"/>
+
+    <!-- قائمة الزهور (stock.lot) -->
+    <menuitem id="menu_plant_watering_lots"
+              name="Serial Numbers"
+              parent="menu_plant_watering_root"
+              sequence="20"/>
+
+    <!-- قائمة سجلات السقاية -->
+    <menuitem id="menu_plant_watering_logs"
+              name="Watering Logs"
+              parent="menu_plant_watering_root"
+              sequence="30"/>
+</odoo>

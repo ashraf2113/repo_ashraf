@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="action_bulk_water_lots" model="ir.actions.server">
+        <field name="name">Water Selected Plants</field>
+        <field name="model_id" ref="stock.model_stock_lot"/>
+        <field name="binding_model_id" ref="stock.model_stock_lot"/>
+        <field name="state">code</field>
+        <field name="binding_view_types">list</field>
+        <field name="code">
+    for rec in records:
+        rec.action_bulk_water()
+        </field>
+    </record>
+</odoo>

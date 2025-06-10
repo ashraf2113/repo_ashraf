@@ -1,0 +1,91 @@
+.border-ele {
+    border: 1px solid black;
+}
+
+
+.ar_border-ele {
+    direction: rtl;
+    border: 1px solid black;
+}
+
+.a1 {
+    direction: rtl;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+
+
+
+
+}
+
+
+
+
+td {
+    direction: rtl;
+    color: black;
+    font-size: 20px;
+}
+
+.spicail_td{
+    background-color: rgba(234, 149, 0, 0.8);
+
+}
+
+
+.spicail_th{
+    background-color: rgb(238, 119, 8);
+
+}
+
+
+a2 {
+    direction: rtl !important;
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    text-align: right:
+
+}
+
+
+table {
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    direction: ltr;
+}
+
+table th {
+    border: 1px solid black;
+/*     background: white; */
+    padding: 5px;
+    color: black;
+    text-align: center;
+
+}
+
+table td {
+    border: 1px solid black;
+    text-align: center;
+    background: white;
+    padding: 5px;
+    color: black;
+
+}
+
+p {
+    text-align: right
+}
+
+pre {
+    text-align: right
+}
+
+h1,
+h3 {
+    text-align: center
+}
