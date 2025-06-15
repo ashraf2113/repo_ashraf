@@ -17,7 +17,11 @@ class StockLot(models.Model):
         store=True
     )
     warehouse_id = fields.Many2one('stock.warehouse', string='Warehouse')
-
+    weather_datetime = fields.Datetime(string='Weather Time', required=True)
+    temperature = fields.Float(string='Temperature (°C)')
+    humidity = fields.Float(string='Humidity (%)')
+    pressure = fields.Float(string='Pressure (hPa)')
+    rain_mm = fields.Float(string='Rain Volume (mm)')
     def action_create_water_record(self):
         if len(self) != 1:
             raise UserError("يرجى تحديد سجل واحد فقط.")

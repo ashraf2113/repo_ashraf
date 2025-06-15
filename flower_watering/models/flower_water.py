@@ -41,7 +41,12 @@ class FlowerWater(models.Model):
         default=7,
         help='Minimum number of days between watering'
     )
-
+    warehouse_id = fields.Many2one('stock.warehouse', string='Warehouse', required=True)
+    weather_datetime = fields.Datetime(string='Weather Time', required=True)
+    temperature = fields.Float(string='Temperature (°C)')
+    humidity = fields.Float(string='Humidity (%)')
+    pressure = fields.Float(string='Pressure (hPa)')
+    rain_mm = fields.Float(string='Rain Volume (mm)')
     @api.depends('watering_date', 'watering_frequency')
     def _compute_next_watering_date(self):
         for record in self:

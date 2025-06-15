@@ -12,6 +12,13 @@
                 <field name="watering_frequency"/>
                 <field name="user_id"/>
                 <field name="note"/>
+                 <field name="warehouse_id"/>
+                  <field name="weather_datetime"/>
+                  <field name="temperature"/>
+                  <field name="humidity"/>
+                  <field name="pressure"/>
+                  <field name="rain_mm"/>
+
             </tree>
         </field>
     </record>
