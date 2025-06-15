@@ -11,4 +11,6 @@
         rec.action_bulk_water()
         </field>
     </record>
+
+
 </odoo>

@@ -16,6 +16,7 @@ class StockLot(models.Model):
         string='Next Watering Date',
         store=True
     )
+    warehouse_id = fields.Many2one('stock.warehouse', string='Warehouse')
 
     def action_create_water_record(self):
         if len(self) != 1:

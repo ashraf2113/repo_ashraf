@@ -16,6 +16,7 @@
         "security/ir.model.access.csv",
         "views/flower_base.xml",
         "data/server_actions.xml",
+        "data/cron.actions.xml",
         "views/flower_view.xml",
         "views/stock_lot.xml",
         "reports/report_screen_stock_lot.xml",
