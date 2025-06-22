@@ -19,6 +19,8 @@
         "data/cron.actions.xml",
         "views/flower_view.xml",
         "views/stock_lot.xml",
+        "views/weather_scheduler.xml",
+        "views/stock_warehouse_weather.xml",
         "reports/report_screen_stock_lot.xml",
         "reports/report_screen_flower_water.xml",
     ],

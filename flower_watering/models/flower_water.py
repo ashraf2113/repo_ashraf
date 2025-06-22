@@ -2,6 +2,7 @@
 from odoo import models, fields, api, _
 from odoo.exceptions import ValidationError
 from datetime import timedelta
+from odoo.exceptions import UserError
 
 class FlowerWater(models.Model):
     _name = 'flower.water'
@@ -72,3 +73,9 @@ class FlowerWater(models.Model):
                         last_record.watering_date.strftime('%Y-%m-%d %H:%M'),
                         min_date.strftime('%Y-%m-%d %H:%M')
                     ))
+
+    def action_fetch_weather(self):
+        self.env['stock.warehouse'].action_fix_partner_city()
+        self.env['stock.warehouse'].fetch_and_process_weather()
+
+        raise UserError("تم جلب بيانات الطقس وتسجيلها بنجاح.")

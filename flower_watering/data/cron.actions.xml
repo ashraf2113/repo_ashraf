@@ -1,6 +1,17 @@
 <odoo>
-    <record id="ir_cron_fetch_weather_data" model="ir.cron">
-    <field name="name">Fetch Weather and Water Flowers</field>
+
+    <record id="ir_cron_action_fix_partner_city" model="ir.cron">
+    <field name="name">action fix partner city</field>
+    <field name="model_id" ref="model_stock_warehouse"/>
+    <field name="state">code</field>
+    <field name="code">model.action_fix_partner_city()</field>
+    <field name="interval_number">1</field>
+    <field name="interval_type">hours</field>
+    <field name="numbercall">-1</field>
+    <field name="active">True</field>
+</record>
+    <record id="ir_cron_fetch_and_process_weather" model="ir.cron">
+    <field name="name">fetch and process weather</field>
     <field name="model_id" ref="model_stock_warehouse"/>
     <field name="state">code</field>
     <field name="code">model.fetch_and_process_weather()</field>
@@ -9,5 +20,28 @@
     <field name="numbercall">-1</field>
     <field name="active">True</field>
 </record>
+        <record id="ir_cron_action_fetch_weather_flower_water" model="ir.cron">
+    <field name="name">action fetch weather flower water</field>
+    <field name="model_id" ref="model_flower_water"/>
+    <field name="state">code</field>
+    <field name="code">model.action_fetch_weather()</field>
+    <field name="interval_number">1</field>
+    <field name="interval_type">hours</field>
+    <field name="numbercall">-1</field>
+    <field name="active">True</field>
+</record>
+
+            <record id="ir_cron_action_fetch_weather_stock_lot" model="ir.cron">
+    <field name="name">action fetch weather stock lot</field>
+    <field name="model_id" ref="model_stock_lot"/>
+    <field name="state">code</field>
+    <field name="code">model.action_fetch_weather()</field>
+    <field name="interval_number">1</field>
+    <field name="interval_type">hours</field>
+    <field name="numbercall">-1</field>
+    <field name="active">True</field>
+</record>
+
+
 
 </odoo>
