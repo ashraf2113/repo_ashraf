@@ -8,7 +8,7 @@ class StockWarehouseWeather(models.Model):
     _name = 'stock.warehouse.weather'
     _description = 'Warehouse Weather Info'
 
-    _order = 'watering_date desc'
+    _order = 'weather_datetime desc'
 
     lot_id = fields.Many2one(
         comodel_name='stock.lot',
@@ -56,11 +56,25 @@ class StockWarehouseWeather(models.Model):
             if record.watering_date and record.watering_frequency:
                 record.next_watering_date = record.watering_date + timedelta(days=record.watering_frequency)
 
-
     def action_fetch_weather(self):
-        self.env['stock.warehouse'].fetch_and_process_weather()
+        # 1. إصلاح المدن المرتبطة بالمخازن أولاً
         self.env['stock.warehouse'].action_fix_partner_city()
-        raise UserError("تم جلب بيانات الطقس وتسجيلها بنجاح.")
+
+        # 2. ثم جلب بيانات الطقس وتسجيلها
+        self.env['stock.warehouse'].fetch_and_process_weather()
+
+        # 3. إظهار إشعار للمستخدم بشكل غير مزعج
+        return {
+            'type': 'ir.actions.client',
+            'tag': 'display_notification',
+            'params': {
+                'title': 'عملية ناجحة ✅',
+                'message': 'تم ربط المدن وتحديث بيانات الطقس بنجاح.',
+                'type': 'success',  # يمكن أيضاً استخدام 'warning' أو 'danger'
+                'sticky': False,  # لو True هيفضل ظاهر حتى المستخدم يقفله
+            }
+        }
+
 
 class ResConfigSettings(models.TransientModel):
     _inherit = 'res.config.settings'

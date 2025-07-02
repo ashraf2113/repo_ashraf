@@ -96,5 +96,14 @@ class FlowerWater(models.Model):
     def action_fetch_weather(self):
         # self.env['stock.warehouse'].action_fix_partner_city()
         self.env['stock.warehouse'].fetch_and_process_weather()
-        raise UserError("✅ تم تحديث بيانات الطقس وربط المدن بنجاح.")
+        return {
+            'type': 'ir.actions.client',
+            'tag': 'display_notification',
+            'params': {
+                'title': 'تم بنجاح ✅',
+                'message': 'تم تحديث بيانات الطقس وربط المدن بنجاح.',
+                'type': 'success',
+                'sticky': False,
+            }
+        }
 
