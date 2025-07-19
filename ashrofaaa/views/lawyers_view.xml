@@ -1,0 +1,120 @@
+<odoo>
+  
+        <!-- <record id="view_lawyers_activity" model="ir.ui.view">
+            <field name="name">lawyers.activity</field>
+            <field name="model">lawyers</field>
+            <field name="arch" type="xml">
+                <activity string="lawyers view activity">
+                    <field name="customers_id"/>
+                    <templates>
+                        <div t-name="activity-box">
+                            <img t-att-src="activity_image('lawyers', 'image', record.customers_id.raw_vaule)"
+                                 t-att-title="record.customers_id.value" t-att-alt="record.customers_id.value"/>
+                            <div>
+                                <field name="refs" display="full"/>
+                            </div>
+                        </div>
+                    </templates>
+                </activity>
+            </field>
+        </record> -->
+<record id="tree_lawyers_views" model="ir.ui.view">
+    <field name="name">Lawyers</field>
+    <field name="type">tree</field>
+    <field name="model">lawyers</field>
+    <field name="arch" type="xml">
+        <tree>
+       <field name="name" />
+     <field name="patients_id"/>
+     <field name="customers_id"/>
+
+       <field name="age" />
+       <field name="gender" />
+       <field name="refs" />
+       <field name="state" widget="badge" decoration-success="state=='done'" 
+                                              decoration-info="state=='draft'"
+                                         decoration-warning="state=='in_consultaion'"
+                                              decoration-danger="state=='cancel'"
+                                                /> 
+    </tree>
+       </field>
+</record>
+<record id="form_lawyers_views" model="ir.ui.view">
+    <field name="name">lawyers.form</field>
+    <field name="model">lawyers</field>
+    <field name="arch" type="xml">
+        <form string="Lawyer">
+        
+        <header>
+        <button name="action_in_consultaion" type="object" data-hotkey="i" string="To In consultaion" class="oe_highlight" states="draft"/>
+        <button name="action_done" type="object" data-hotkey="d" string=" To Done"  class="oe_highlight" states="in_consultaion"/>
+        
+     <button name="%(ashrofaaa.action_cancel_in_wizard)d" type="action" data-hotkey="c"
+      string="To Cancel" class="oe_highlight" states="draft,in_consultaion"
+      context="{'reason':'وضح سبب الالغاء يا اشرف'}"/>
+
+        <!-- <button name="action_cancel" type="object" data-hotkey="c" string="To Cancel" class="oe_highlight" states="draft,in_consultaion"/> -->
+        <button name="action_draft" type="object" data-hotkey="r" string="To Draft" class="oe_highlight" states="cancel"/>
+
+         <field name="state" widget="statusbar" nolable="1"
+                    statusbar_visible="draft,in_consultaion,done"/>
+<field name="image" widget="image" class="oe_avatar"/>
+
+        </header>
+
+            <sheet>
+
+                <group>
+                    <field name="patients_id" widget="many2many_tags"  options="{'color_field':'color'}"/>
+                    <field name="customers_id"/>
+                    <field name="gender"/>
+                    <field name="age"/>
+                    <field name="name"/>
+                    <field name="refs"/>
+                </group>
+            </sheet>
+        </form>
+    </field>
+</record>
+
+<record id="lawyers_view_search" model="ir.ui.view">
+    <field name="name">Lawyers</field>
+    <field name="model">lawyers</field>
+    <field name="arch" type="xml">
+        <search>
+            <field name="name"/>
+            <field name="gender"/>
+            <field name="age"/>
+            <field name="state" />
+            <field name="refs" />
+            <!-- <filter name="archived" string="Archived" domain="[('active', '=', False)]"/> -->
+            <filter name="filter_male" string="Male" domain='[("gender","=","male")]'/>  
+            <separator/> 
+            <filter name="filter_female" string="Female" domain='[("gender","=","female")]'/> 
+            <separator/>  
+            <filter name="filter_kids" string="Kids" domain='[("age","&lt;=",5)]'/>  
+            </search>
+    </field>
+</record>
+
+<record id="action_lawyers" model="ir.actions.act_window">
+    <field name="name">Lawyers</field>
+    <field name="res_model">lawyers</field>
+    <field name="view_mode">tree,form,search,kanban</field>
+    <field name="domain">[]</field>
+    <field name="context">{}</field>
+    <field name="help" type="html">
+    <p class="o_view_nocontent_smiling_face">
+        HI ASHRAF,CREATE YOUR FIRST PATIENTS
+    </p>
+    </field>
+</record>
+
+    <menuitem id="menu_lawyers"
+    name="Lawyers"
+    parent="menu_hospitalss_root"
+    action="action_lawyers"
+    sequence="0"/>
+
+  
+</odoo>

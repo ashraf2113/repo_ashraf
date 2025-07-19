@@ -1,0 +1,135 @@
+<odoo>
+
+
+    <record id="tree_customers_views" model="ir.ui.view">
+        <field name="name">Customers</field>
+        <field name="model">customers</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name" />
+                <field name="age" />
+                <field name="gender" />
+                <field name="refs" />
+            </tree>
+        </field>
+    </record>
+    
+    <record id="form_customers_views" model="ir.ui.view">
+        <field name="name">Customers</field>
+        <field name="type">form</field>
+        <field name="model">customers</field>
+        <field name="arch" type="xml">
+            <form>
+            <field name="image" widget="image" class="oe_avatar"/>
+            
+                <sheet>
+                    <group>
+                    <field name="hide_field_from_here"/>
+                        <field name="name" />
+                          <field name="appoint_time"/>
+                         <field name="booking_date"/>
+                        <field name="gender"  groups="base.group_no_one"/>
+                        <field name="refs" />
+                    </group>
+                    <group>
+                        <field name="age" />
+                    </group>
+ <notebook>
+            <page string="Products" name="products">
+             <field name="customers_lines_ids">
+                     <tree editable="bottom">
+                               
+
+                               <field name="product_id"/>
+                                <field name="qty" />
+                                <field name="price"  attrs="{'column_invisible':[('parent.hide_field_from_here','=',True)]}"/>
+                                    <field name="other_product_id"/>
+                                    <field name="qtys"/>
+                              
+                     </tree>
+                    <form>
+                            <group>
+                                  
+
+                                 <field name="product_id" />
+                                <field name="qty" />
+                                <field name="price" />
+                                    <field name="other_product_id" />
+                                    <field name="qtys" />
+                                    <field name="prices" />
+                              
+                            </group>
+                    </form>
+                 </field>   
+         </page>
+                        <page string="Prescription" name="prescription">
+                        <group>
+          <field name="prescription" placeholder="inter your prescription" 
+          options="{'collaborative':true,'resizable':true,'codeview':true}"/>
+                        
+                            <field name="gender" />
+                         </group>
+                        </page>
+                        <page string="Test1" name="test1" />
+                        <page string="Note" name="note" >
+                        <group>
+                         <field name="note" placeholder="inter your note" 
+          options="{'collaborative':true,'resizable':true}"/>
+                         </group>
+                        </page>
+
+ </notebook>
+<notebook>
+                 
+                        <page string="Pharmacy" name="pharmacy">
+                        <group>
+                            <field name="booking_date"  default_focus="1"/>
+                        </group>
+                        </page>
+                        <page string="Test2" name="test2" />
+  </notebook>
+                </sheet>
+        <div class="oe_chatter">
+            <field name="message_follower_ids" groups="base.group_user"/>
+            <field name="activity_ids"/>
+            <field name="message_ids"/>
+        </div>
+            </form>
+        </field>
+    </record>
+    
+    <record id="customers_view_search" model="ir.ui.view">
+        <field name="name">customers_view_search</field>
+        <field name="model">customers</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="name" />
+                <field name="gender" />
+                <field name="age" />
+                
+                    <field name="refs" />
+            
+               <filter name="filter_male" string="Male" domain='[("gender", "=", "male")]' />
+<separator />
+<filter name="filter_female" string="Female" domain='[("gender", "=", "female")]' />
+<separator />
+<filter name="filter_kids" string="Kids" domain='[("age", "&lt;=", 5)]' />
+
+            </search>
+        </field>
+    </record>
+
+    <record id="action_customers" model="ir.actions.act_window">
+        <field name="name">Customers</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">customers</field>
+        <field name="view_mode">tree,form,search,activity</field>
+        <field name="target">inline</field>   
+    </record>
+    
+    <menuitem id="menu_Customers"
+              name="Customers"
+              parent="menu_hospitalss_root"
+              action="action_customers"
+              sequence="0" />
+</odoo>

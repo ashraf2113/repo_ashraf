@@ -1,0 +1,71 @@
+<odoo>
+
+
+    <record id="tree_plays_ground_views" model="ir.ui.view">
+        <field name="name">plays ground</field>
+        <field name="model">plays.ground</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="code"/>
+                <field name="result"/>
+            
+            </tree>
+        </field>
+    </record>
+    
+    <record id="form_plays_ground_views" model="ir.ui.view">
+        <field name="name">plays ground</field>
+        <field name="model">plays.ground</field>
+        <field name="arch" type="xml">
+            <form>
+       
+            
+                <sheet>
+                <group>
+                    <div>
+                <button name="action_execute" string="execute" class="fa fa-check oe_highlight" type="object"/>
+                </div>
+                </group>
+                <div>
+                 <button name="action_clear" string="clear" class="fa fa-refresh oe_highlight" type="object"/>
+                    </div>
+                    <group>
+             <field name="code" widget="ace" options="{'mode':'python'}"/>
+             <field name="result" readonly="1"/>
+                    </group>
+
+                </sheet>
+      
+            </form>
+        </field>
+    </record>
+    
+    <!-- <record id="plays_ground_view_search" model="ir.ui.view">
+        <field name="name">plays_ground_view_search</field>
+        <field name="model">plays.ground</field>
+        <field name="arch" type="xml">
+            <search>
+            
+        
+                <field name="code"/>
+             <field name="result"/>
+          
+
+            </search>
+        </field>
+    </record> -->
+
+    <record id="action_plays_ground_ashrafco" model="ir.actions.act_window">
+        <field name="name">plays ground</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">plays.ground</field>
+        <field name="view_mode">tree,form,search</field>
+        <field name="target">inline</field>   
+    </record>
+    
+    <menuitem id="menu_plays_ground_ash"
+              name="plays ground"
+              parent="menu_hospitalss_root"
+              action="action_plays_ground_ashrafco"
+              sequence="51" />
+</odoo>

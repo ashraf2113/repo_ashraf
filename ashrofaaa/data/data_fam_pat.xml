@@ -1,0 +1,15 @@
+<odoo>
+<record id="data_fam_pat_vip" model="hospital.patients">
+    <field name="name">vip</field>
+</record>
+<record id="data_fam_pat_kid" model="hospital.patients">
+    <field name="name">kid</field>
+</record>
+<record id="data_fam_pat_adult" model="hospital.patients">
+    <field name="name">adult</field>
+</record>
+<record id="data_fam_pat_mr" model="hospital.patients">
+    <field name="name">mr</field>
+     <field name="active" eval="False"/>
+</record>
+</odoo>

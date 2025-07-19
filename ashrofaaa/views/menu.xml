@@ -1,0 +1,17 @@
+<odoo>
+ 
+    <menuitem id="menu_hospitalss_root"
+    name="ASHROFAAA"
+     web_icon="ashrofaaa,static/description/aksa.png"
+    sequence="0"/>
+
+    <menuitem id="menu_patientss_masters"
+    name="PATIENTS DETAILS"
+    parent="menu_hospitalss_root"
+    sequence="0"/>
+
+    
+   
+
+  
+</odoo>

@@ -1,0 +1,12 @@
+
+<!-- <odoo>
+    <data>
+        <template id="sales_report_ashraf" inherit_id="sale.report_saleorder">
+ <xpath expr="//div[@class='o_sale_signature']" position="after">
+    <div>
+        <p>تمت الإضافة بنجاح بعد عنصر التوقيع.</p>
+    </div>
+</xpath>
+        </template>
+    </data>
+</odoo> -->

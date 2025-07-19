@@ -1,0 +1,21 @@
+<odoo>
+    <record id="action_females_hospital_patients" model="ir.actions.act_window">
+        <field name="name">PATIENTS FEMALES</field>
+        <field name="res_model">hospital.patients</field>
+        <field name="view_mode">tree,form</field>
+        
+        <field name="context">{'default_gender':'female','default_age':23,'hide_gender':1}</field>
+        <field name="domain">[('gender','=','female'),("age","&lt;=",5)]</field>
+        <field name="help" type="html">
+        <p class="o_view_nocontent_smiling_face">
+            HI ASHRAF, CREATE YOUR FIRST PATIENTS
+        </p>
+      
+        </field>
+    </record>
+    <menuitem id="menu_females_patientss"
+    name="PATIENTS FEMALES"
+    parent="menu_patientss_masters"
+    action="action_females_hospital_patients"
+    sequence="0"/>
+</odoo>

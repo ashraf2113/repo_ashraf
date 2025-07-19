@@ -1,0 +1,7 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access.customers,access_customers,ashrofaaa.model_customers,base.group_user,1,1,1,1
+access.lawyers,access_lawyers,ashrofaaa.model_lawyers,base.group_user,1,1,1,1
+access.hospital.patients,access_hospital_patients,ashrofaaa.model_hospital_patients,base.group_user,1,1,1,1
+access.customers.lines,access_customers_lines,ashrofaaa.model_customers_lines,base.group_user,1,1,1,1
+access.cancel.in.wizard,access_cancel_in_wizard,ashrofaaa.model_cancel_in_wizard,base.group_user,1,1,1,1
+access.plays.ground,access_plays_ground,ashrofaaa.model_plays_ground,base.group_user,1,1,1,1

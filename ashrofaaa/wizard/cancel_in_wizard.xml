@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <record id="form_cancel_in_wizard_views" model="ir.ui.view">
+        <field name="name">cancel in wizard</field>
+        <field name="type">form</field>
+        <field name="model">cancel.in.wizard</field>
+        <field name="arch" type="xml">
+            <form>
+        <sheet>
+        <group> 
+            <field name="patients_id"/>
+             <field name="reason" />
+              <field name="time_cancel" />
+           </group>
+           <group>
+ <footer>
+<button string="cancel pations" name="action_cancel" type="object" class="btn-primary" data-hotkey="q"/>
+ <button string="Discard" class="btn-secondary" special="cancel" data-hotkey="z"/>
+ </footer>           
+           </group>
+        </sheet>      
+        </form>
+           </field>
+    </record>
+
+     <record id="action_cancel_in_wizard" model="ir.actions.act_window">
+        <field name="name">cancel In Wizard</field>
+         <field name="type">ir.actions.act_window</field>
+        <field name="res_model">cancel.in.wizard</field>
+        <field name="view_mode">form</field>  
+         <field name="target">new</field>      
+    </record>
+
+     <menuitem id="menu_cancel_in_wizard"
+    name="Cancillation"
+    parent="menu_patientss_masters"
+    action="action_cancel_in_wizard"
+    sequence="110"/>
+
+</odoo>

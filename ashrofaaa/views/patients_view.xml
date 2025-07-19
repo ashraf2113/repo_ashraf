@@ -1,0 +1,129 @@
+<odoo>
+   
+    <record id="tree_patients_views" model="ir.ui.view">
+        <field name="name">PATIONS</field>
+        <field name="model">hospital.patients</field>
+        <field name="arch" type="xml">
+            <tree  sample="1" decoration-success="state=='done'" decoration-info="state=='draft'" 
+            decoration-warning="state=='in_consultaion'" decoration-danger="state=='cancel'">
+
+            <field name="name" optional="show" />
+             <field name="date_of_birth"/>
+            <field name="active"  widget="boolean_toggle"/>
+           <field name="color"  widget="color_picker"/>
+            <field name="color_2"  widget="color" groups="base.group_no_one"/>
+           
+            <field name="doctor_id" widget="many2one_avatar_user"/>
+            <field name="periority" optional="show"/>
+             <field name="activity_ids" widget="list_activity"/>
+           <field name="age" optional="show"/>
+           <field name="gender" optional="show" />
+           <field name="refs" optional="hide" />
+           <field name="state" widget="badge" decoration-success="state=='done'" 
+                                              decoration-info="state=='draft'"
+                                         decoration-warning="state=='in_consultaion'"
+                                              decoration-danger="state=='cancel'"
+                                                /> 
+        </tree>
+           </field>
+    </record>
+    <record id="form_patients_views" model="ir.ui.view">
+        <field name="name">PATIONS</field>
+        <field name="type">form</field>
+        <field name="model">hospital.patients</field>
+        <field name="arch" type="xml">
+            <form>
+            <header>
+             <field name="state"  widget="statusbar" nolable="1" options="{'clickable':'1'}"
+             statusbar_visible="draft,in_consultaion,done"/>
+            </header>
+            <field name="image" widget="image" class="oe_avatar"/>
+
+        <sheet>
+        <div class="oe_title" >
+                     <field name="periority" widget="priority" class="mr-3" />
+        </div>
+         <group>
+         <button string="in consultaion" attrs="{'invisible':[('state','!=','draft')]}" name="action_in_consultaion" type="object" class="oe_highlight"/>
+         <button string="Done" attrs="{'invisible':[('state','!=','in_consultaion')]}" name="action_done" type="object" class="oe_highlight"/>
+         <button string="Cancel" attrs="{'invisible':[('state','=','done')]}" name="action_cancel" type="object" class="oe_highlight"/>
+
+        <button string="انتقال لصفحة اخرى" name="%(ashrofaaa.action_customers)d" groups="base.group_no_one" type="action"
+        confirm="Are you sure to open this window???اشرف باشااااااااااا"
+        help="زر الانتقال يا اشرف"
+         class="oe_highlight"/>
+         <field name="name" />
+          <field name="active"  widget="boolean_toggle"/>
+           <field name="color"  widget="color_picker"/>
+           <field name="color_2"  widget="color" groups="base.group_no_one"/>
+           
+           <field name="doctor_id" widget="many2one_avatar"/>
+           <field name="age" />
+           <field name="gender" help="زر تحديد الجنس يا اشرف" invisible="context.get('hide_gender')"/>
+             <field name="date_of_birth"/>
+
+          
+
+           
+        </group>
+        <group>
+ <button string="test rainbow"  name="test_rainbow" type="object" groups="base.group_no_one" class="oe_highlight"/>
+
+            <field name="age" /> 
+            <field name="refs" />
+           </group>
+        </sheet>
+        <div class="oe_chatter">
+            <field name="message_follower_ids" groups="base.group_user"/>
+            <field name="activity_ids"/>
+            <field name="message_ids"/>
+        </div>
+        </form>
+           </field>
+    </record>
+    <record id="patients_view_search" model="ir.ui.view">
+        <field name="name">patients_view_search</field>
+        <field name="model">hospital.patients</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="name"/>
+                <field name="gender"/>
+                <field name="age"/>
+                <field name="refs" />
+                <filter name="archived" string="Archived" domain="[('active', '=', False)]"/>
+                <filter name="filter_male" string="Male" domain='[("gender","=","male")]'/>  
+                <separator/> 
+                <filter name="filter_female" string="Female" domain='[("gender","=","female")]'/> 
+                <separator/>  
+                <!-- <filter name="filter_kids" string="Kids" domain='[("age","&lt;=",5)]'/>  -->
+                <filter name="filter_archive" string="ARCHIVE" domain='[("active","=",False)]'/> 
+                <group expand="0" string="Group By">
+                    <filter string="Gender" name="group_by_gender" domain="" context="{'group_by':'gender'}"/>
+                    
+                </group>
+                <searchpanel>
+                    <field name="gender" icon="fa-users" select="multi" enable_counters="1"/>
+                </searchpanel>
+                
+            </search>
+        </field>
+    </record>
+    <record id="action_hospital_patients" model="ir.actions.act_window">
+        <field name="name">PATIONS</field>
+        <field name="res_model">hospital.patients</field>
+        <field name="view_mode">tree,form</field>
+        <field name="domain">[]</field>
+        <field name="context">{'search_default_filter_male':1,'search_default_group_by_gender':1}</field>
+        <field name="help" type="html">
+        <p class="o_view_nocontent_smiling_face">
+            HI ASHRAF, CREATE YOUR FIRST PATIENTS
+        </p>
+      
+        </field>
+    </record>
+    <menuitem id="menu_patientss"
+    name="PATIENTS"
+    parent="menu_patientss_masters"
+    action="action_hospital_patients"
+    sequence="0"/>
+</odoo>
