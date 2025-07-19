@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <!-- نموذج عرض و تعديل بيانات الزهرة -->
+    <record id="view_flower_form" model="ir.ui.view">
+        <field name="name">flower.flower.form</field>
+        <field name="model">flower.flower</field>
+        <field name="arch" type="xml">
+            <form string="Flower">
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                        <field name="watering_frequency"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- نموذج قائمة الزهور -->
+    <record id="view_flower_tree" model="ir.ui.view">
+        <field name="name">flower.flower.tree</field>
+        <field name="model">flower.flower</field>
+        <field name="arch" type="xml">
+            <tree string="Flowers">
+                <field name="name"/>
+                <field name="watering_frequency"/>
+            </tree>
+        </field>
+    </record>
+
+
+
+    <!-- تعريف الإجراء لفتح القائمة -->
+    <record id="action_flower" model="ir.actions.act_window">
+        <field name="name">Flowers</field>
+        <field name="res_model">flower.flower</field>
+        <field name="view_mode">tree,form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Create your first flower
+            </p>
+        </field>
+    </record>
+        <menuitem id="menu_item_flower" name="Flowers"
+                  parent="menu_flower_shop_root"
+                  action="action_flower"
+                    sequence="-100"/>
+
+
+</odoo>

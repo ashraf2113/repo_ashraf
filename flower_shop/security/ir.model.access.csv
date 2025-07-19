@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access.stock.warehouse.weather,access_stock_warehouse_weather,model_stock_warehouse_weather,,1,1,1,1
+access.flower.flower,access_flower_flower,model_flower_flower,,1,1,1,1
+

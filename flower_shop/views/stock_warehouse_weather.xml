@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <record id="view_stock_warehouse_weather_tree" model="ir.ui.view">
+        <field name="name">stock warehouse.weather.tree</field>
+        <field name="model">stock.warehouse.weather</field>
+        <field name="arch" type="xml">
+            <tree string="Weather">
+                <field name="warehouse_id"/>
+                <field name="description"/>
+                <field name="pressure"/>
+                 <field name="temperature"/>
+                <field name="humidity"/>
+                 <field name="wind_speed"/>
+                <field name="rain_volume"/>
+                <field name="capture_time"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_stock_warehouse_weather_form" model="ir.ui.view">
+        <field name="name">stock.warehouse.weather.form</field>
+        <field name="model">stock.warehouse.weather</field>
+        <field name="arch" type="xml">
+            <form string="Weather">
+                <sheet>
+                    <group>
+                <field name="warehouse_id"/>
+                <field name="description"/>
+                <field name="pressure"/>
+                 <field name="temperature"/>
+                <field name="humidity"/>
+                 <field name="wind_speed"/>
+                <field name="rain_volume"/>
+                <field name="capture_time"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+
+
+
+    <record id="action_stock_warehouse_weather" model="ir.actions.act_window">
+        <field name="name">Weather Records</field>
+        <field name="res_model">stock.warehouse.weather</field>
+        <field name="view_mode">tree,form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Create your first Weather
+            </p>
+        </field>
+    </record>
+        <menuitem id="menu_item_stock_warehouse_weather"
+                  name="Weather Records"
+                  parent="menu_flower_shop_root"
+                  action="action_stock_warehouse_weather"
+                  sequence="-90"/>
+
+
+</odoo>

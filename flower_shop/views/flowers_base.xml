@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <!-- القائمة الرئيسية -->
+    <menuitem id="menu_flower_shop_root"
+              name="Flower Shop"
+              web_icon="flower_shop,static/src/img/flower_shop1.png"
+              sequence="-10"/>
+
+
+
+</odoo>
+

@@ -1,0 +1,23 @@
+{
+    'name': 'Flower Shop',
+    'version': '1.0',
+    'category': 'Inventory',
+    'summary': 'Manage Flowers, Watering Schedule and Weather Integration',
+    'depends': ['base', 'product', 'stock', 'website_sale'],
+    'data': [
+        'security/ir.model.access.csv',
+        'data/groups.xml',
+        'data/rules.xml',
+        'data/cron.xml',
+        'data/ir_config_parameter.xml',
+        'data/actions.xml',
+        'views/flowers_base.xml',
+        'views/product_product.xml',
+        'views/website_templates.xml',
+        'views/flower_flower.xml',
+        'views/stock_warehouse_weather.xml',
+        'views/stock_lot.xml',
+    ],
+    'installable': True,
+    'application': False,
+}

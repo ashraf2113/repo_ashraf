@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+  <record id="view_product_form_flower" model="ir.ui.view">
+    <field name="name">product.product.form.flower</field>
+    <field name="model">product.product</field>
+    <field name="inherit_id" ref="product.product_normal_form_view"/>
+    <field name="arch" type="xml">
+      <xpath expr="//sheet" position="inside">
+        <group string="Flower Details" modifiers='{"invisible": [["is_flower", "=", false]]}'>
+          <field name="is_flower"/>
+          <field name="flower_id"/>
+          <field name="needs_watering"/>
+          <field name="sequence_id"/>
+          <field name="user_ids" widget="many2many_tags"/>
+        </group>
+      </xpath>
+    </field>
+  </record>
+</odoo>
