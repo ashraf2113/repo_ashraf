@@ -1,0 +1,26 @@
+<odoo>
+  <record id="ashrafiows_chang_state_wizard_view_form" model="ir.ui.view">
+    <field name="name">chang state wizard form</field>
+    <field name="model">chang.state</field>  <!-- توحيد الاسم -->
+    <field name="arch" type="xml">
+      <form>
+        <group>
+          <field name="property_id" />
+          <field name="state" />
+          <field name="reason"/>
+        </group>
+        <footer>
+          <button string="Action Wizard"  name="action_wizard" class="btn-primary" type="object"/>
+          <button string="Cancel"  special="cancel" class="btn-secondary" />
+        </footer>
+      </form>
+    </field>
+  </record>
+
+  <record id="chang_state_wizard_action" model="ir.actions.act_window">
+    <field name="name">Change State Wizard</field>
+    <field name="res_model">chang.state</field>
+    <field name="target">new</field>
+     <field name="view_mode">form</field>
+  </record>
+</odoo>

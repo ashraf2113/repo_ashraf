@@ -1,0 +1,10 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access.owner,access_owner,model_owner,,1,1,1,1
+access.paper,access_paper,model_paper,,1,1,1,1
+access.property,access_property,model_property,,1,1,1,1
+access.tag,access_tag,model_tag,,1,1,1,1
+access.property.line,access_property_line,model_property_line,,1,1,1,1
+access.property.history,access_property_history,model_property_history,,1,1,1,1
+access.chang.state,access_chang_state,model_chang_state,,1,1,1,1
+access.property.history.line,access_property_history_line,model_property_history_line,,1,1,1,1
+access.env.find,access_env_find,model_env_find,,1,1,1,1

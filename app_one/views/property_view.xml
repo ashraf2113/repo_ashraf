@@ -1,0 +1,236 @@
+<odoo>
+
+<record id="property_view_search" model="ir.ui.view">
+    <field name="name">property_search</field>
+    <field name="model">property</field>  <!-- تأكد أن الموديل صحيح -->
+    <field name="arch" type="xml">
+        <search>
+            <!-- الحقول المستخدمة في البحث -->
+            <field name="name"/>
+ <field name="active"/>
+            <field name="owner_id" />
+            <field name="dateavailability"/>
+            <field name="expected_selling_date"/>
+          <field name="is_late"/>
+            <field name="selling_price"/>
+            <field name="garden"/>
+            <field name="faceades"/>
+            <field name="garden_area"/>
+            <field name="bedrooms" optional="1"/>
+            <field name="garage" optional="1"/>
+
+            <!-- الفلاتر (Filters) -->
+            <filter string="Has Garden" name="filter_has_garden" domain="[('garden', '=', True)]"/>
+            <filter string="Has Garage" name="filter_has_garage" domain="[('garage', '=', True)]"/>
+            <filter string="Available Soon" name="filter_available_soon" domain="[('dateavailability', '>', context_today())]"/>
+            <filter string="Luxury Properties" name="filter_luxury" domain="[('selling_price', '>', 1000000)]"/>
+
+            <!-- التجميع (Group By) -->
+            <group expand="0" string="Group By">
+                <filter string="Availability Date" name="group_by_dateavailability" context="{'group_by': 'dateavailability'}"/>
+                <filter string="Garden" name="group_by_garden" context="{'group_by': 'garden'}"/>
+                <filter string="Bedrooms" name="group_by_bedrooms" context="{'group_by': 'bedrooms'}"/>
+                <filter string="Garage" name="group_by_garage" context="{'group_by': 'garage'}"/>
+            </group>
+        </search>
+    </field>
+</record>
+
+  <record id="property_view_tree" model="ir.ui.view">
+    <field name="name">property_tree</field>
+    <field name="model">property</field>
+    <field name="arch" type="xml">
+      <tree class="header_custom" decoration-danger="(is_late)" multi_edit="1" create="1" edit="1" delete="1">
+            <field name="name" />
+          <field name="active"/>
+           <field name="owner_id" />
+          <field name="state"/>
+            <field name="dateavailability" />
+          <field name="expected_selling_date"/>
+          <field name="is_late"/>
+            <field name="selling_price" />
+            <field name="garden" />
+           <field name="faceades" />
+           <field name="garden_area" />
+               <field name="bedrooms" optional="1"/>
+               <field name="garage" optional="1"/>
+      </tree>
+    </field>
+  </record>
+
+
+
+  <record id="property_view_form" model="ir.ui.view">
+    <field name="name">property form</field>
+    <field name="model">property</field>
+    <field name="arch" type="xml">
+        <form>
+
+        <sheet>
+            <header>
+                <button name="app_one.chang_state_wizard_action"
+        string="Open Wizard (XML Action)"
+        type="action"
+        class="btn-outline-primary"/>
+
+                <button string="chang state wizard Action Call Name Model Wizard" name="action_open_state_wizard_xml" type="object" class="btn-primary"/>
+                <button string="chang state wizard Action Call ID Wizard" name="action_open_change_wizard_pythone" type="object" class="btn-primary"/>
+                <button name="action_env" string="فواءد الانف" type="object" class="btn-primary"/>
+                <button name="action_draft" string="Set to draft" class="btn-primary" type="object"
+                invisible="state == 'draft'"/>
+                <button name="action_pending" string="To pending" class="btn-secondary" type="object"
+                invisible="state !='draft'"/>
+                <button name="action_sold" string="To sold" class="btn-success" type="object"
+                invisible="state !='pending'"/>
+                <field name="state" widget="statusbar" options="{'clickable':0}"/>
+            </header>
+                <div class="oe_title">
+                     <label for="ref"/>
+                     <h1> <field name="ref" /></h1>
+                      <label for="name"/>
+                     <h3> <field name="name"/></h3>
+
+                </div>
+
+          <group>
+              <group> <field name="active"/></group>
+X            <group string="General Info">
+                <field name="tag_ids" readonly="state=='closed'" widget="many2many_tags"/>
+                <field name="owner_id" readonly="state=='closed'"/>
+                <field name="owner_address" readonly="state=='closed'"/>
+                <field name="owner_phone" readonly="state=='closed'"/>
+              <field name="selling_price" readonly="state=='closed'"/>
+               <field name="expected_price" readonly="state=='closed'"/>
+                <field name="diff" readonly="state=='closed'"/>
+
+              <field name="living_area" readonly="state=='closed'"/>
+                <field name="garden" readonly="state=='closed'"/>
+            <field name="create_time"/>
+              <field name="next_time"/>
+              <field name="garden_orientation" readonly="state=='closed'"/>
+            </group>
+            <group string="Additional Info">
+                <field name="dateavailability" readonly="state=='closed'"/>
+                <field name="expected_selling_date" readonly="state=='closed'"/>
+<field name="is_late">
+    <attribute name="readonly">state in ['sold', 'closed']</attribute>
+</field>
+
+              <field name="postcode" readonly="state=='closed'"/>
+              <field name="faceades" readonly="state=='closed'"/>
+              <field name="garden_area" readonly="state=='closed'"/>
+              <field name="bedrooms" readonly="state=='closed'"/>
+              <field name="garage" readonly="state=='closed'"/>
+            </group>
+          </group>
+          <group>
+                <field name="description"/>
+
+          </group>
+            <notebook>
+                    <page string="Bedrooms">
+                           <field name="line_ids" readonly="state=='closed'">
+                               <tree editable="top">
+                                   <field name="area"/>
+                                   <field name="description"/>
+                               </tree>
+                           </field>
+
+                    </page>
+            </notebook>
+        </sheet>
+     <div class="oe_chatter">
+    <field name="message_follower_ids"/>
+    <field name="activity_ids"/>
+    <field name="message_ids"/>
+    </div>
+      </form>
+    </field>
+  </record>
+
+
+  <record id="property_view_kanban" model="ir.ui.view">
+    <field name="name">property view kanban</field>
+    <field name="model">property</field>
+    <field name="type">kanban</field>
+    <field name="arch" type="xml">
+      <kanban class="o_kanban_mobile">
+        <templates>
+          <t t-name="kanban-box">
+            <div class="oe_kanban_global_click">
+              <div class="oe_kanban_card">
+             <field name="name" />
+                   <field name="active"/>
+                  <field name="owner_id" />
+        <field name="dateavailability" />
+        <field name="selling_price" />
+        <field name="garden" />
+
+              </div>
+            </div>
+          </t>
+        </templates>
+      </kanban>
+    </field>
+  </record>
+<record id="ashraf_closed_server_action_ash" model="ir.actions.server">
+    <field name="name">Property Closed Server Action</field>
+    <field name="model_id" ref="model_property"/>
+    <field name="binding_model_id" ref="model_property"/>
+    <field name="state">code</field>
+    <field name="code">
+for rec in records:
+    rec.action_closed()
+    </field>
+</record>
+    <record id="ashraf_pending_server_action_ash" model="ir.actions.server">
+    <field name="name">Property Pending Server Action</field>
+    <field name="model_id" ref="model_property"/>
+    <field name="binding_model_id" ref="model_property"/>
+    <field name="state">code</field>
+    <field name="code">
+for rec in records:
+    rec.action_pending()
+    </field>
+</record>
+    <record id="ashraf_sold_server_action_ash" model="ir.actions.server">
+    <field name="name">Property Sold Server Action</field>
+    <field name="model_id" ref="model_property"/>
+    <field name="binding_model_id" ref="model_property"/>
+    <field name="state">code</field>
+    <field name="code">
+for rec in records:
+    rec.action_sold()
+    </field>
+</record>
+    <record id="ashraf_draft_server_action_ash" model="ir.actions.server">
+    <field name="name">Property Draft Server Action</field>
+    <field name="model_id" ref="model_property"/>
+    <field name="binding_model_id" ref="model_property"/>
+    <field name="state">code</field>
+    <field name="code">
+for rec in records:
+    rec.action_draft()
+    </field>
+</record>
+
+
+<record id="ashraf_check_expected_selling_date_action_cron" model="ir.cron">
+    <field name="name">Property: Check Expected Selling Date</field>
+    <field name="model_id" ref="model_property"/>
+    <field name="state">code</field>
+    <field name="code">model.check_expected_selling_date()</field>
+    <field name="interval_number">1</field>
+    <field name="interval_type">days</field>
+    <field name="numbercall">-1</field>
+    <field name="active">True</field>
+</record>
+
+  <record id="property_action" model="ir.actions.act_window">
+    <field name="name">Property ACTION</field>
+    <field name="res_model">property</field>
+    <field name="view_mode">tree,form,search,kanban</field>
+  </record>
+
+  <menuitem id="property_menu_item"  name="PROPERTY" parent="deed_root_menu" action="property_action" />
+</odoo>

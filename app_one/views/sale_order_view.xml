@@ -1,0 +1,42 @@
+<odoo>
+    <data>
+        <record id="view_sale_order_form" model="ir.ui.view">
+            <field name="name">sale.order.form.inherit</field>
+            <field name="model">sale.order</field>
+            <field name="inherit_id" ref="sale.view_order_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='partner_id']" position="after">
+                    <field name="property_id"/>
+                </xpath>
+         <xpath expr="//form/header" position="after">
+                <button class="oe_highlight"
+                        type="action"
+                        name="%(app_one.paper_creak_report)d"
+                        string="تقرير كشف حساب العملاء"/>
+
+                <button class="oe_highlight"
+                        type="object"
+                        name="call_print_method"
+                        string="طباعة كشف حساب العملاء"/>
+            </xpath>
+            </field>
+        </record>
+
+
+
+<record id="view_quotation_tree_with_onboarding_inherit" model="ir.ui.view">
+    <field name="name">sale.order.line.tree</field>
+    <field name="model">sale.order.line</field>
+    <field name="inherit_id" ref="sale.view_quotation_tree_with_onboarding"/>
+    <field name="arch" type="xml">
+        <xpath expr="//field[@name='name']" position="before">
+            <field name="product_sequence"  readonly="1"/>
+        </xpath>
+    </field>
+</record>
+
+
+
+
+    </data>
+</odoo>

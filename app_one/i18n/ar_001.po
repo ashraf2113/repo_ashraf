@@ -1,0 +1,2081 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* app_one
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e-20240205\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-04-05 07:55+0000\n"
+"PO-Revision-Date: 2025-04-05 07:55+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+"( أ) أن يتم بيع الوحدة المباعة للغيـــر<br/>\n"
+"(ب) قيام المشتري بتحمل النسب والمبالغ المذكورة في البندين )10-1) و)10-2) أعلاه <br/>    \n"
+"(ج) تحمل المشترى للمصروفات الإدارية الخاصة بالبائع<br/>\n"
+"(د ) استمرار المشترى في سداد أقساطه المستحقة لحين إتمام البيع للغير<br/>\n"
+"ويحق للطرف الاول عدم الموافقة على العدول او الفسخ بناء على طلب الطرف الثانى الا بعد أعادة بيع الوحدة للغير بناء على الطلب المقدم من الطرف الثانى وتحمله اى اعباء تترتب على ذلك."
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "(يشار إليه فيما بعد فى هذا العقد بـ \"الطرف الثانى\" أو \"المشترى\")"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "(يشار إليها فيما بعد فى هذا العقد بـ \"الطرف الأول\" أو \"البائع\")"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+"- باع وأسقط وتنازل الطرف الأول بكافة الضمانات الفعلية والقانونية وبضمان حق "
+"أمتياز البائع لحين أستيفاء الثمن إلى الطرف الثانى (المشترى) ما هو "
+"...................بالمنطقة  ..............الفيلا "
+"رقم..................بمشروع creek town  السكنى المخصص استعمالها سكن خاص بدون"
+" تشطيب ، قطعة ارض بمساحة ..................(فقط "
+"..........................متر مربع) و المساحة بنائية "
+"........................(فقط ........................متر)  مربع تحت العجز "
+"والزيادة وللمشترى ملكية كاملة لمساحة الأرض المقام عليها الوحدة (الفيلا) "
+"بالمساحة المذكورة عاليه وذلك على النحو المبين تفصيلاً بالشروط الخاصة بهذا "
+"التعاقد."
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+"- يلتزم ويتعهد المشترى بسداد أقساط ثمن الشراء و دفعة الصيانة فى تواريخ "
+"الاستحقاق المبينه بجدول الاقساط بملحق رقم (  1 ) وذلك بموجب شيكات مسطرة "
+"مستحقة السداد فى تواريخ استحقاق الاقساط ويقوم المشترى بتقديم تلك الشيكات الى"
+" البائع عند التوقيع على هذا العقد وذلك التزاما من المشترى بسداد كافة أقساط "
+"ثمن الوحدة فى مواعيد أستحقاقها ولا تبرأ ذمة المشترى من السداد لاى قسط الا فى"
+" حالة قبول البنك و صرفه لقيمة الشيك المرادف للقسط حال تقديمها . <br/>"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ". <br/>"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+"1) الكشف المالى\n"
+"2 ) رسومات الوحدة المبيعه .\n"
+"3) مواصفات الوحدة المبيعه\n"
+"4 ) طلب تأسيس شركة إدارة وصيانة المشروع."
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+"1/2 اتفق البائع على أن يبيع الفيلا للمشتري - القابل لذلك - وفقًا لبنود هذا "
+"العقد بشرط سداد كامل دفعة الصيانة وكامل أقساط ثمن الشراء المستحقة من جانب "
+"المشتري والحصول على التراخيص النهائية من جانب البائع."
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+"10) 1) اعلاه، خصم نسبة تساوي 1 % من قيمة الثمن شهريا من المبالغ المسددة من "
+"المشتري كمقابل انتفاع لقاء انتفاعه بالعين المباعة عن الفترة اعتبار من تاريخ "
+"استلام المشترى للوحدة المباعة وحتى تاريخ إخلائه للعين وتسليمها للبائع كل ذلك"
+" بالإضافة الى حق البائع في خصم قيمة اية تلفيات او اضرار او تكاليف تترتب "
+"نتيجة استخدام المشتري للوحدة."
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "10. اللائحة الداخلية :"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+"10/1- في حالة رغبــــــــة المشترى في العدول عن إتمام البيع وفسخ العقد "
+"واسترداد ما سبق سداده من أقساط فعليه التقدم بطلب الى الطرف الاول وفى حالة "
+"موافقة الطرف الاول على طلب الطرف الثانى يتم خصم مبلغ يعادل 10% من أجمالى "
+"قيمة الوحدة وذلك فى حالة تقديم الطرف الثانى لطلب العدول عن اتمام"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+"10/2 - في حالة ان تم العدول بعد استلام المشتري للوحدة فيكون للبائع اضافة الى"
+" النسبة المذكورة في البند"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+"10/3- دون الاخلال بالبند )10-1)، يجوز للبائع عدم الموافقة على رغبة المشترى "
+"في العدول عن إتمام عقد البيع هذا إلا بعد تحقق الآتي:"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "11 –شركة الادارة :"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+"11/1- يلتزم الطرف الثاني بسداد مبلغ يعادل نسبة 10 % من قيمة الوحدة وذلك وفقا"
+" للمرفق المالى"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+"11/2كما يلتزم الطرف الثانى بسداد ما يستحق عليه بعد احتساب الفرق بين عائد "
+"الوديعة والمصاريف الفعلية للوحدة اعتبارا من تاريخ استلام وحدته فعلا أو حكما "
+"وتدفع سنويا مقدما ، وإذا حدث وتخلف الطرف الثاني عن تنفيذ ما ورد بهذا البند "
+"حق للطرف الأول أو من ينوب عنه فورا ودون إجراءات وبموجب التوقيع على هذا العقد"
+" إنقاص مبلغ وديعة وحدة التعامل بقدر مبلغ الدين فإذا استمر الطرف الثاني على "
+"مخالفة الحكم الوارد بهذا البند إلى حين حلول الشهر التالي لشهر وقوع المخالفة "
+"حق للطرف الأول أو من ينوب عنه بالإضافة لما تقدم عدم تقديم الخدمات للطرف "
+"الثانى (المشترى) ."
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+"11/3- يقر الطرف الثاني بعلمه بان مشروع الطرف الأول هو مشروع سكنى ذو طبيعة "
+"خاصة ، والطرف الأول لديه الخبرة في إدارة مثل هذا المشروع ففوض الطرف الثاني "
+"الطرف الأول تفويضا نهائيا غير قابل للرجوع أو العدول أو التعديل في القيام "
+"بكافة أعمال الإدارة والصيانة وذلك على النحو التالي :-"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+"11/3/ا- يتولى الطرف الأول أعمال إدارة المشروع وتكون القرارات التي تصدر منه ملزمة للطرف الثاني \n"
+"11/3/ب- يتولى الطرف الأول منفردا أعمال الإدارة والصيانة والتشغيل والحراسة للمرافق والمنشآت العامة بصورة تليق بمستوى التجمع السكنى المعروف باسم كريك تاون."
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+"11/3/ج- يقر الطرف الثاني (المشتري) بقبوله النهائي وغير المشروط بحق الطرف "
+"الأول     ( البائع ) في إحالة كل او بعض حقوقه وإلتزاماته المرتبطة بإدارة "
+"المشروع وبصيانة المرافق العامة إلى أي طرف ثالث وأنه بمجرد إخطار الطرف الثاني"
+" (المشتري) بهذه الحواله ينتقل إلتزام الطرف الأول بالصيانة وما يترتب عليه من "
+"أثار الى المحال إليه وتصبح العلاقه بين الطرف الثاني وهذا الطرف الثالث "
+"\"المحال اليه\" علاقة مباشره فوراً ."
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+"11/4- يتنازل الطرف الثاني بموجب التوقيع على هذا العقد عن طلب السير في "
+"إجراءات تأسيس اتحاد شاغلين لأجل إدارة تجمع كريك تاون ويسند بموجب توقيعه على "
+"هذا العقد ادارة التجمع للطرف الاول أو من يسند اليه الطرف الاول الادارة لمدة "
+"مطلقة غير محددة أو محدودة فينفرد الطرف الأول أو من ذكر لمدة مطلقة غير محددة "
+"أو محدودة بإدارة التجمع بما يحفظ مستوى الخدمات وتحقيق أقصى فائدة من العقارات"
+"   ."
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "12- اعمال الصيانة :"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "13- وديعة الصيانة :"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+"13/1يلتزم الطرف الثاني بسداد كافة الضرائب العقارية وضريبة القيمة المضافة (ان"
+" وجدت) والأموال الأميرية المفروضة أو التي عساها تفرض على وحدة التعامل "
+"اعتبارا من تاريخ استلام الطرف الثاني الوحدة تسلما فعليا أو حكميا ."
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+"13/2 يلتزم المشترى بسداد الرسوم القضائية واى رسوم اخرى حال قيامه باقامة دعوى"
+" صحة توقيع او اى اجراء يتم على هذا العقد من جانب المشترى"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "14 –القوة القاهرة :"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+"14/1 - يلتزم الطرف الثاني بمراعاة عدم إجراء اى تعديلات بمباني الوحدة موضوع "
+"التعامل أو المساس بالواجهات أو تعديل لونها أو شكلها العام أو الطراز الذي "
+"صممت عليه ، وكذلك بعدم تعديل النوافذ أو ضم الشرفات للمساحات المقفلة ."
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+"14/2-لا يجوز للطرف الثاني باى حال من الأحوال إضافة اى مباني أخرى إلى مباني "
+"الوحدة بخلاف الموضح بالرسومات الهندسية والمنفذ بالطبيعة دون الحصول على "
+"الموافقة الكتابية المسبقة من الطرف الأول."
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+"14/3 -عدم القيام بأية أعمال أو تعديلات بمباني الوحدة المبيعة سواء بالإضافة أو الإزالة أو الهدم أو التعديل أو تعديل مداخلها أو مخارجها أو عمل فتحات أو نوافذ بها أو تعديل الفتحات والنوافذ الموجودة بها أو تغيير اى ألوان خارجية وذلك للحفاظ على المظهر العام المميز للمشروع والطابع المعماري الخاص به .\n"
+"14/4 - وفى حال مخالفة الطرف الثاني لما تقدم ينذره الطرف الأول او شركة الادارة حسب الاحوال بإزالة المخالفة في مهلة أقصاها أسبوعين وفى حال عدم تنفيذ الطرف الثاني لطلب الطرف الأول او الشركة المذكورة و يحق للطرف الاول إزالة المخالفات بمعرفته بمصروفات على عاتق الطرف الثاني ودون أن يرتب ذلك اى حق للطرف الثاني في الرجوع على الطرف الأول او الشركة المذكورة باى مرجع مدني أو جنائي ويتم اتخاذ الاجراءات القانونية حيال المشترى فى حالة رجوع المخالفات ."
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+"14/5 - يلتزم الطرف الثاني بوضع أجهزة التكييف بالأماكن المخصصة لها دون إخلال "
+"بذلك ."
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+"14/6- لا يحق للطرف الثاني وضع لافتات أو إعلانات في اى مساحة على الوحدة موضوع"
+" التعامل أو اى جزء من المبنى ."
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+"14/7- يلتزم الطرف الثاني عند انتفاعه واستغلاله لوحدة التعامل أن يحترم وينفذ "
+"الأحكام والقواعد التي تنظم استغلال واستخدام المرافق المخصصة للانتفاع المشترك"
+" ."
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+"14/8- يلتزم الطرف الثاني بعدم إجراء اى تغيير أو تعديل بالمرافق المشتركة "
+"بالمشروع أو اى جزء منها ويلتزم باستعمال تلك المرافق فيما أعدت من اجله لتظل "
+"دائما في حالة صالحة للاستعمال الأمثل ولا يحق للطرف الثاني التنازل عن نصيبه "
+"في الأجزاء المشتركة أو المرافق المخصصة لمنفعة المشروع ولا يجوز تحميلها بأي "
+"حق عيني أو شخصي منفصلة عن الوحدة موضوع التعامل وفى الأحوال التي يجوز للطرف "
+"الثاني تحميل وحدة التعامل بحق عيني أو شخصي ."
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "15. المرفقـات :"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "16 – القرار الوزارى"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+"16/1 لا يحق للمشتـــــــــــري أو خلفه العام أو الخــــــــــــــــاص "
+"التنازل عن الوحدة لصالح مشتري آخر و/أو التصرف فيها إلا بعد الحصول على موافقة"
+" البائع على هذا التنازل والشروط التعاقدية لهذا التنازل وذلك بموجب تصديق "
+"البائع كتابةً على عقد التنازل أو الحوالة المبرم بين المشترى والمتصرف إليه "
+"وبشرط قيام المشتري بسداد جميع أقساط ثمن الشراء المستحقة وملحقاته وأية مبالغ "
+"اخري مستحقة بموجب هذا العقد حتى تاريخ إتمام التنازل أو التصرف وأخصها غرامات "
+"التأخير حتى تاريخ التنازل، وإفادة الشركة بقيام المشتري بسداد ضريبة التصرفات "
+"العقارية وكافة الضرائب الأخرى الناشئة عن هذا التنازل."
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+"16/2في حالة إخلال المشتري بأي التزام من الالتزامات المنصوص عليها في هذا البند يطبق البند(14) يكون أي تنازل أو نقل أو رهن أو بيع أو أي تصرف آخر لهذا العقد أو الوحدة في هذا الشأن باطلًا ولا ينفذ في حق البائع، ويعتبر عقد البيع الابتدائي الماثل مفسوخًا من تلقاء نفسه دون الحاجة لحكم محكمة ودون الحاجة إلى إعذار أو إنذار للمشتري ودون الحاجة إلى اتخاذ أية اجراءات قانونية أو قضائية؛ وتسري آثار الفسخ المنصوص عليها في العقد.<br/>\n"
+" يلتزم المشترى بأن يكون عقد التنازل أو الحوالة بالصيغة التي قد يطلبها البائع(الطرف الاول) والتي تتفق وأحكام هذا العقد، والتي بموجبها يلتزم المتصرف إليه أو المتنازل لصالحه على سبيل المثال\n"
+" الحصر بالآتي: <br/><br/><br/>\n"
+"(أ‌)\tالموافقة على نقل كافة الحقوق والالتزامات المتعلقة بالوحدة الثابتة بموجب هذا العقد من المشتري إلى المتصرف إليه أو المتنازل لصالحه<br/>\n"
+"(ب‌)\tالتعهد بأداء كافة التزامات المشتري وفقاً لهذا العقد، والتي لم يقم الأخير بالوفاء بها حتى تاريخ التصرف أو الحوالة<br/><br/><br/>\n"
+"(ت‌)\tالتعهد بإبرام ذات العقود والاتفاقات المنصوص عليها في هذا العقد. <br/><br/><br/>"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "17 – المناطق التجارية والخدمية"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+"17/1 يشكل هذا الاتفاق الكامل النهائى بين الطرفين ويحل محل ويلغى أى عروض أو مراسلات أو تفاهمات سابقة أو اتصالات أخرى سواء كانت شفوية أو تحريرية. <br/> <br/>\n"
+"17/2  إذا أصبح أى نص من نصوص العقد أو أى من ملحقاته باطلاً أو مخالفاً لأحكام القانون أو غير قابل للتنفيذ بموجب أحكام القانون فلا يؤثر ذلك على قانونية وصلاحية وسريان باقى نصوص العقد وملحقاته. <br/> <br/>"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+"18/1يخضع هذا العقد من كافة النواحي لأحكام القانون المصري السارية دون غيرها.\n"
+"18/2في حالة نشوء أي خلاف أو نزاع بين طرفي هذا العقد حول تنفيذه أو تفسيره يتم الفصل فيه عن طريق محاكم شمال القاهرة بكافة درجاتها المختصة في هذا الشأن. <br/> <br/>"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+"2/2 للطرف الثانى الانتفاع على سبيل الاستعمال المشترك مع شاغلى وملاك وحدات "
+"المشروع بكافة المرافق المشتركة كالشوارع و الممرات والطرقات والمنتزهات وغيرها"
+" بما يتفق مع طبيعتها وما خصصت لاجله وفقا للتنظيم الذى يضعه الطرف الاول على "
+"اساس ان هذه الاجزاء المشتركة معده للانتفاع المشترك وغير قابلة للقسمه او "
+"الفرز او التصرف فيها استقلالا بأعتبارها ملكية خالصة للطرف الاول ."
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "3/1  ثمن الشراء"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "3/2 قيمة وديعة الصيانة"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+"3/2 يقر الطرف الثانى انه عاين موقع الوحدة المباعه على الطبيعه معاينه تامة "
+"ونافية للجهالة قانونا واطلع على الرسومات الهندسية الخاصه به ومواصفاتها "
+"وموقعها من المشروع وقبل شرائها على ذلك ومن ثم لا يجوز له ذلك الرجوع على "
+"الطرف الاول بأى شىء فى هذا او ان يطلب تعديل موقعها او اجراء اى تعديل فيها "
+"مخالفا لنموذج البناء المتعاقد عليه الا بموافقة الطرف الاول الكتابية ."
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "3/4 الالتزام بسداد ضمان التشطيبات :"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "4/1 الاخلال بسداد أقساط ثمن المبيع و ملحقاته :"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+"4/2 يحتفظ الطرف الاول بحقه فى أجراء أى تعديلات هندسية طبقا للمتطلبات بمحض "
+"إرادته ووفقاً لمتطلبات أى جهه من الجهات المختصه بما لا يتعارض مع الرسم "
+"الهندسى الاساسى المتفق عليه ويقر الطرف الثانى ان للطرف الاول الحق فى تعديل "
+"المخطط العام للمشروع دون المساس بمساحة الوحدة المبيعه المتفق عليها بموجب هذا"
+" العقد."
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+"5/1 - أتفق الطرفان على ان يتم تسليم الوحدة المبيعه طبقاً للرسومات والمواصفات المحددة بالمرفقات ( 2, 3) ما لم يكن هناك قوة قاهرة تعوق الطرف الأول عن تنفيذ التزاماته وبحيث يكون التسليم خلال الربع الثاني 2025 <br/>\n"
+"5/2 - ويسلم الطرف الأول الطرف الثاني الوحدة المبيعه خلال المدة المذكورة شريطة انتظام الطرف الثاني في سداد أقساط الثمن وملحقاته ووديعة الصيانه في تواريخ الاستحقاق المذكورة . <br/>\n"
+"5/3 - يقرالطرف الاول (البائع) بان يقوم باستكمال المرافق والطرق والمنافع خلال سنة من تاريخ تسليم الوحدة  <br/>"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+"5/4 - تعتبر الوحدة المبيعة جاهزة للتسليم فى تاريخ إخطار المشتري بحلول ميعاد "
+"التسليم او في تاريخ إخطار المشتري بالاستلام علي العنوان المبين في هذا العقد "
+"او من خلال البريد الالكترونى بحيث اذا لم يقم الطرف الثانى بالاستلام فى خلال "
+"ثلاثون يوما اعتبر انه تسلم الوحدة حكميا وتسرى عليه كافة الالتزامات المترتبة "
+"على ذلك دون ادنى مسئولية على الطرف الاول ."
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+"5/5- يحق للبائع الامتناع عن تسليم الوحدة في تاريخ التسليم إذا لم يقوم المشتري بسداد جميع الأقساط المستحقة وغرامات التأخيراو اية مبالغ ماليه تكون مستحقة فى ذمة الطرف الثانى حتي هذا التاريخ بالإضافة الي وديعة الصيانة كاملة . \n"
+"."
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+"5/6 - متي تم التسليم فعلياً او حكمياً، لا يحق للمشتري ان يمنع الطرف الاول من القيام باعمال التشطيبات او الإنشاءات الباقية للمشروع . ولا يعتبر استكمال مراحل المشروع بعد تسليم الوحدة، تأخير في التسليم او حرمان الطرف الثاني من الانتفاع بالوحدة المباعة.\n"
+"."
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+"5/7 - وقد اتفق الطرفان بأن حيازة الطرف الثانى حال استلامه للوحدة المبيعه محل هذا العقد حيازه عارضه لا ترتب له حقوق عينيه أصليه أو تبعية حتى تستقر له الملكيه بسداد كامل الثمن وملحقاته على النحو الموضح بهذا العقد مع علم الطرف الثانى بأنه بتحقق الشرط الصريح الفاسخ وهو عدم سداد الطرف الثانى لاى قسط من أقساط باقى الثمن فى ميعاد استحقاقه تعتبر يد الطرف الثانى على الوحدة المبيعه يد غاصب لا سند له من القانون وتجيز للطرف الاول اللجوء للقضاء المستعجل \n"
+"."
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+"5/8- فى حالة تأخر الطرف الاول فى تسليم الوحدة المبيعه حسب الميعاد المتفق عليه وبعد فترة سماح قدرها 12 شهر ( أثنا عشر شهرا) يلتزم الطرف الاول بسداد غرامة تأخيرقدرها 2% من اجمالى المبالغ المسددة من الطرف الثانى عن كل سنة تأخير تحسب من اليوم التالى للتأخير بعد فترة السماح المسموح بها وحتى تمام التسليم الفعلى أو الحكمى ويتم خصم هذا التعويض من الاقساط المستحقة للبائع ويسقط حق الطرف الثانى فى هذا التعويض فى حال تأخره او تخلفه او امتناعه عن سداد اى قسط من الاقساط السابقة على تاريخ التسليم كما هو متفق عليه بالمرفق المالى .\n"
+"."
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+"6/1يقر الطرف الثاني بأنه عاين ارض التعامل المعاينة التامة النافية للجهالة "
+"وأحاط وأحيط بطبيعتها بموقعها وحدودها وأطوالها واتصالها بالطريق العام ، وكذلك"
+" عاين المعاينة التامة النافية للجهالة موقع     الوحدة المبيعه التعامل واطلع "
+"اطلاعا ينفى كل جهالة على خريطة الموقع العام واللوحات والتصميمات والرسومات "
+"والمساقط وقبل كل ما تقدم واشترى على أساس منه."
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+"6/2 وكذلك يقر الطرف الثاني بقبول استعمال وحدة التعامل بنفسه وأفراد أسرته في "
+"الغرض المعدة من اجله كسكن دون غيره من الأغراض وبحيث لا يحق للطرف الثاني أو "
+"خلفه تغيير هذا الغرض مهما كانت الأسباب ."
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+"7/1يقر الطرف الأول بخلو الوحدة المبيعه  من كافة الحقوق العينية أو الشخصية "
+"إلا ما هو مقرر لصالح كل وحدة  أخرى أو أكثر من وحدة ، وكذلك إلا ما هو مقرر "
+"بموجب الاشتراطات البنائية"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+"7/2 يقر بأنه حائز لأرض التعامل حيازة ظاهرة ومستمرة وغير متقطعة ولا تشوبها "
+"شائبة ، ولم يسبق له التصرف فيها أو تحميلها باى حق للغير إلا ما لباقي السادة "
+"المشترين أو المنتفعين ."
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+"7/3 يضمن الطرف الأول للطرف الثاني عدم تعرضه المادي أو القانوني له في الحيازة"
+" أو الملكية ، وكذلك يضمن له عدم تعرض الغير القانوني ."
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "9. التسجيل:"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+"9/1 يحظر على الطرف الثاني التصرف في وحدة  التعامل أو تحميلها باى حق عيني أو "
+"شخصي أو وضعها دليل للملاءة المالية أو ضمانا لقرض أو تسهيل أو المساهمة أو "
+"المشاركة بها كحصة عينية إلا بعد سداد كامل مبلغ الثمن والالتزامات المالية "
+"المذكورة بهذا العقد ."
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+"9/2مع عدم الإخلال بما جاء بهذا العقد يحتفظ الطرف الأول بحق امتياز البائع على"
+" وحدة التعامل ضمانا لسداد الثمن والفوائد والغرامات والمخالفات والودائع "
+"ومبالغ التأمين والمصاريف وغيرها ."
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+":\n"
+"1.\tتشطيب الواجهات : <br/>\n"
+"•\tتكسيات ودهانات<br/>\n"
+"\n"
+"2.\tالشبابيك الخارجيه : <br/>\n"
+"•\tقطاعات الومنيوم محلى \" زجاج مزدوج \"<br/><br/>\n"
+"\n"
+"•\tالتشطيبات الداخلية<br/><br/>\n"
+"•\tصالة المعيشة والطعام <br/>\n"
+"-\tالأرضيات :  خرسانه<br/>\n"
+"-\tالحوائط    :   مباني فقط<br/>\n"
+"-\tالسقف     :   خرسانه<br/><br/>\n"
+"•\tغرف النوم<br/>\n"
+"-\tالأرضيات :  خرسانه<br/>\n"
+"-\tالحوائط    :   مباني فقط<br/>\n"
+"-\tالسقف     :   خرسانه<br/><br/>\n"
+"•\tالأبواب<br/>\n"
+"-\tباب الوحدة الخارجى : خشب طبيعى<br/><br/>\n"
+"•\tالحمامات<br/>\n"
+"-\tالأرضيات    : خرسانه<br/>\n"
+"-\tالحوائط       : مباني فقط<br/>\n"
+"-\tالسقف        : خرسانه<br/><br/>\n"
+"•\tالمطبخ<br/>\n"
+"•\tالأرضيات    : خرسانه<br/>\n"
+"•\tالحوائط       : مباني فقط<br/>\n"
+"•\tالسقف        : خرسانه<br/><br/>\n"
+"\n"
+"•\tغرفة المربية <br/>\n"
+"-\tالأرضيات   :  خرسانه<br/>\n"
+"-\tالحوائط      : مباني فقط<br/><br/>\n"
+"•\tالتراسات<br/>\n"
+"-\tالأرضيات            :  خرسانه<br/>\n"
+"-\tالأبواب والشبابيك    : قطاع ألومونيوم وزجاج دبل<br/><br/>\n"
+"-\t\n"
+"-\tالحديقة : مصدر تغذيه مياه وبدون زراعه<br/>\n"
+"-\tالأسطح : عزل حرارى وعزل مياه<br/><br/>"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+"<br/>الاسم: ......................................................\n"
+"<br/>العنوان: ...................................................\n"
+"<br/>الرقم القومي: ............................................... \n"
+"<br/>التوقيع: ...........................................................................................\n"
+"التاريخ: ........................................................................ <br/>\n"
+"<br/>"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property__message_needaction
+msgid "Action Needed"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.ashrafiows_chang_state_wizard_view_form
+msgid "Action Wizard"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property__active
+msgid "Active"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property__activity_ids
+msgid "Activities"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property__activity_state
+msgid "Activity State"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property__activity_type_icon
+msgid "Activity Type Icon"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.owner_view_form
+#: model_terms:ir.ui.view,arch_db:app_one.property_view_form
+msgid "Additional Info"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_client__address
+#: model:ir.model.fields,field_description:app_one.field_owner__address
+#: model:ir.model.fields,field_description:app_one.field_property__owner_address
+msgid "Address"
+msgstr ""
+
+#. module: app_one
+#. odoo-javascript
+#: code:addons/app_one/static/src/xml/image_multi.xml:0
+#, python-format
+msgid "All Image"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property_history_line__area
+#: model:ir.model.fields,field_description:app_one.field_property_line__area
+msgid "Area"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property__message_attachment_count
+msgid "Attachment Count"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.property_view_search
+msgid "Availability Date"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.property_view_search
+msgid "Available Soon"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property__bedrooms
+#: model_terms:ir.ui.view,arch_db:app_one.property_history_view_form
+#: model_terms:ir.ui.view,arch_db:app_one.property_view_form
+#: model_terms:ir.ui.view,arch_db:app_one.property_view_search
+msgid "Bedrooms"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.ashrafiows_chang_state_wizard_view_form
+msgid "Cancel"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model,name:app_one.model_chang_state
+msgid "Change State"
+msgstr ""
+
+#. module: app_one
+#: model:ir.actions.act_window,name:app_one.chang_state_wizard_action
+msgid "Change State Wizard"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields.selection,name:app_one.selection__chang_state__state__closed
+#: model:ir.model.fields.selection,name:app_one.selection__property__state__closed
+msgid "Closed"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property__create_time
+msgid "Create Time"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_chang_state__create_uid
+#: model:ir.model.fields,field_description:app_one.field_client__create_uid
+#: model:ir.model.fields,field_description:app_one.field_owner__create_uid
+#: model:ir.model.fields,field_description:app_one.field_paper__create_uid
+#: model:ir.model.fields,field_description:app_one.field_property__create_uid
+#: model:ir.model.fields,field_description:app_one.field_property_history__create_uid
+#: model:ir.model.fields,field_description:app_one.field_property_history_line__create_uid
+#: model:ir.model.fields,field_description:app_one.field_property_line__create_uid
+#: model:ir.model.fields,field_description:app_one.field_tag__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_chang_state__create_date
+#: model:ir.model.fields,field_description:app_one.field_client__create_date
+#: model:ir.model.fields,field_description:app_one.field_owner__create_date
+#: model:ir.model.fields,field_description:app_one.field_paper__create_date
+#: model:ir.model.fields,field_description:app_one.field_property__create_date
+#: model:ir.model.fields,field_description:app_one.field_property_history__create_date
+#: model:ir.model.fields,field_description:app_one.field_property_history_line__create_date
+#: model:ir.model.fields,field_description:app_one.field_property_line__create_date
+#: model:ir.model.fields,field_description:app_one.field_tag__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property__dateavailability
+msgid "Dateavailability"
+msgstr ""
+
+#. module: app_one
+#. odoo-javascript
+#: code:addons/app_one/static/src/xml/image_multi.xml:0
+#, python-format
+msgid "Delete Image"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property__description
+#: model:ir.model.fields,field_description:app_one.field_property_history_line__description
+#: model:ir.model.fields,field_description:app_one.field_property_line__description
+msgid "Description"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property__diff
+msgid "Diff"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_chang_state__display_name
+#: model:ir.model.fields,field_description:app_one.field_client__display_name
+#: model:ir.model.fields,field_description:app_one.field_owner__display_name
+#: model:ir.model.fields,field_description:app_one.field_paper__display_name
+#: model:ir.model.fields,field_description:app_one.field_property__display_name
+#: model:ir.model.fields,field_description:app_one.field_property_history__display_name
+#: model:ir.model.fields,field_description:app_one.field_property_history_line__display_name
+#: model:ir.model.fields,field_description:app_one.field_property_line__display_name
+#: model:ir.model.fields,field_description:app_one.field_tag__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields.selection,name:app_one.selection__chang_state__state__draft
+#: model:ir.model.fields.selection,name:app_one.selection__property__state__draft
+msgid "Draft"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields.selection,name:app_one.selection__property__garden_orientation__east
+msgid "East"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property__expected_price
+msgid "Expected Price"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property__expected_selling_date
+msgid "Expected Selling Date"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property__faceades
+msgid "Faceades"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property__message_follower_ids
+msgid "Followers"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property__message_partner_ids
+msgid "Followers (Partners)"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,help:app_one.field_property__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property__garage
+#: model_terms:ir.ui.view,arch_db:app_one.property_view_search
+msgid "Garage"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property__garden
+#: model_terms:ir.ui.view,arch_db:app_one.property_view_search
+msgid "Garden"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property__garden_area
+msgid "Garden Area"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property__garden_orientation
+msgid "Garden Orientation"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.owner_view_form
+#: model_terms:ir.ui.view,arch_db:app_one.property_view_form
+msgid "General Info"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.property_view_search
+msgid "Group By"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.property_view_search
+msgid "Has Garage"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.property_view_search
+msgid "Has Garden"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property__has_message
+msgid "Has Message"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property_history_line__history_id
+msgid "History"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_chang_state__id
+#: model:ir.model.fields,field_description:app_one.field_client__id
+#: model:ir.model.fields,field_description:app_one.field_owner__id
+#: model:ir.model.fields,field_description:app_one.field_paper__id
+#: model:ir.model.fields,field_description:app_one.field_property__id
+#: model:ir.model.fields,field_description:app_one.field_property_history__id
+#: model:ir.model.fields,field_description:app_one.field_property_history_line__id
+#: model:ir.model.fields,field_description:app_one.field_property_line__id
+#: model:ir.model.fields,field_description:app_one.field_tag__id
+msgid "ID"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property__activity_exception_icon
+msgid "Icon"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,help:app_one.field_property__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,help:app_one.field_property__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,help:app_one.field_property__message_has_error
+#: model:ir.model.fields,help:app_one.field_property__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr ""
+
+#. module: app_one
+#. odoo-javascript
+#: code:addons/app_one/static/src/xml/image_multi.xml:0
+#, python-format
+msgid "Image Preview"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property__message_is_follower
+msgid "Is Follower"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property__is_late
+msgid "Is Late"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_chang_state__write_uid
+#: model:ir.model.fields,field_description:app_one.field_client__write_uid
+#: model:ir.model.fields,field_description:app_one.field_owner__write_uid
+#: model:ir.model.fields,field_description:app_one.field_paper__write_uid
+#: model:ir.model.fields,field_description:app_one.field_property__write_uid
+#: model:ir.model.fields,field_description:app_one.field_property_history__write_uid
+#: model:ir.model.fields,field_description:app_one.field_property_history_line__write_uid
+#: model:ir.model.fields,field_description:app_one.field_property_line__write_uid
+#: model:ir.model.fields,field_description:app_one.field_tag__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_chang_state__write_date
+#: model:ir.model.fields,field_description:app_one.field_client__write_date
+#: model:ir.model.fields,field_description:app_one.field_owner__write_date
+#: model:ir.model.fields,field_description:app_one.field_paper__write_date
+#: model:ir.model.fields,field_description:app_one.field_property__write_date
+#: model:ir.model.fields,field_description:app_one.field_property_history__write_date
+#: model:ir.model.fields,field_description:app_one.field_property_history_line__write_date
+#: model:ir.model.fields,field_description:app_one.field_property_line__write_date
+#: model:ir.model.fields,field_description:app_one.field_tag__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property__line_ids
+#: model:ir.model.fields,field_description:app_one.field_property_history__line_ids
+msgid "Line"
+msgstr ""
+
+#. module: app_one
+#. odoo-javascript
+#: code:addons/app_one/static/src/xml/image_multi.xml:0
+#, python-format
+msgid "List All Image"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property__living_area
+msgid "Living Area"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.property_view_search
+msgid "Luxury Properties"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property__message_has_error
+msgid "Message Delivery error"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property__message_ids
+msgid "Messages"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_client__name
+#: model:ir.model.fields,field_description:app_one.field_owner__name
+#: model:ir.model.fields,field_description:app_one.field_property__name
+#: model:ir.model.fields,field_description:app_one.field_tag__name
+msgid "Name"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property_history__new_state
+msgid "New State"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property__activity_calendar_event_id
+msgid "Next Activity Calendar Event"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property__activity_summary
+msgid "Next Activity Summary"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property__activity_type_id
+msgid "Next Activity Type"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property__next_time
+msgid "Next Time"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields.selection,name:app_one.selection__property__garden_orientation__north
+msgid "North"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property__message_needaction_counter
+msgid "Number of Actions"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property__message_has_error_counter
+msgid "Number of errors"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,help:app_one.field_property__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,help:app_one.field_property__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property_history__old_state
+msgid "Old State"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.property_view_form
+msgid "Open Wizard (XML Action)"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property__owner_id
+msgid "Owner"
+msgstr ""
+
+#. module: app_one
+#: model:ir.actions.act_window,name:app_one.owner_action_ashraf
+msgid "Owner ACTION"
+msgstr ""
+
+#. module: app_one
+#: model:ir.ui.menu,name:app_one.owner_menu_item
+msgid "Owner action"
+msgstr ""
+
+#. module: app_one
+#: model:ir.ui.menu,name:app_one.paper_menu_item
+msgid "PAPER"
+msgstr ""
+
+#. module: app_one
+#: model:ir.actions.act_window,name:app_one.paper_action
+msgid "PAPER ACTION"
+msgstr ""
+
+#. module: app_one
+#: model:ir.ui.menu,name:app_one.property_menu_item
+msgid "PROPERTY"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields.selection,name:app_one.selection__chang_state__state__pending
+#: model:ir.model.fields.selection,name:app_one.selection__property__state__pending
+msgid "Pending"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_client__phone
+#: model:ir.model.fields,field_description:app_one.field_owner__phone
+#: model:ir.model.fields,field_description:app_one.field_property__owner_phone
+msgid "Phone"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property__postcode
+msgid "Postcode"
+msgstr ""
+
+#. module: app_one
+#. odoo-javascript
+#: code:addons/app_one/static/src/xml/image_multi.xml:0
+#, python-format
+msgid "Preview"
+msgstr ""
+
+#. module: app_one
+#: model:ir.ui.menu,name:app_one.deed_menu
+msgid "Properties"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_chang_state__property_id
+#: model:ir.model.fields,field_description:app_one.field_client__property_ids
+#: model:ir.model.fields,field_description:app_one.field_owner__property_ids
+#: model:ir.model.fields,field_description:app_one.field_property_history__property_id
+#: model:ir.model.fields,field_description:app_one.field_property_line__property_id
+#: model:ir.model.fields,field_description:app_one.field_sale_order__property_id
+msgid "Property"
+msgstr ""
+
+#. module: app_one
+#: model:ir.actions.act_window,name:app_one.property_action
+msgid "Property ACTION"
+msgstr ""
+
+#. module: app_one
+#: model:ir.actions.server,name:app_one.ashraf_closed_server_action_ash
+msgid "Property Closed Server Action"
+msgstr ""
+
+#. module: app_one
+#: model:ir.actions.server,name:app_one.ashraf_draft_server_action_ash
+msgid "Property Draft Server Action"
+msgstr ""
+
+#. module: app_one
+#: model:ir.actions.server,name:app_one.ashraf_pending_server_action_ash
+msgid "Property Pending Server Action"
+msgstr ""
+
+#. module: app_one
+#: model:ir.actions.server,name:app_one.ashraf_sold_server_action_ash
+msgid "Property Sold Server Action"
+msgstr ""
+
+#. module: app_one
+#: model:ir.actions.server,name:app_one.ashraf_check_expected_selling_date_action_cron_ir_actions_server
+msgid "Property: Check Expected Selling Date"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property__rating_ids
+msgid "Ratings"
+msgstr ""
+
+#. module: app_one
+#: model:ir.ui.menu,name:app_one.deed_root_menu
+msgid "Real state"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_chang_state__reason
+#: model:ir.model.fields,field_description:app_one.field_property_history__reason
+msgid "Reason"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property__ref
+msgid "Ref"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property__activity_user_id
+msgid "Responsible User"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model,name:app_one.model_sale_order
+msgid "Sales Order"
+msgstr "أمر البيع"
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property__selling_price
+msgid "Selling Price"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.property_view_form
+msgid "Set to draft"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields.selection,name:app_one.selection__chang_state__state__sold
+#: model:ir.model.fields.selection,name:app_one.selection__property__state__sold
+msgid "Sold"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields.selection,name:app_one.selection__property__garden_orientation__south
+msgid "South"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_chang_state__state
+#: model:ir.model.fields,field_description:app_one.field_property__state
+msgid "State"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,help:app_one.field_property__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property__tag_ids
+#: model:ir.ui.menu,name:app_one.tag_menu_item
+msgid "Tag"
+msgstr ""
+
+#. module: app_one
+#: model:ir.actions.act_window,name:app_one.tag_action
+msgid "Tag ACTION"
+msgstr ""
+
+#. module: app_one
+#. odoo-python
+#: code:addons/app_one/models/property.py:0
+#, python-format
+msgid "The number of bedrooms must be greater than zero,Ashrofaaaaaaa"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.constraint,message:app_one.constraint_property_unique_name
+msgid "This name is exist"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.property_view_form
+msgid "To pending"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.property_view_form
+msgid "To sold"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,help:app_one.field_property__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property_history__user_id
+msgid "User"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_property__website_message_ids
+msgid "Website Messages"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,help:app_one.field_property__website_message_ids
+msgid "Website communication history"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields.selection,name:app_one.selection__property__garden_orientation__west
+msgid "West"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.property_view_form
+msgid "chang state wizard Action Call ID Wizard"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.property_view_form
+msgid "chang state wizard Action Call Name Model Wizard"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model,name:app_one.model_client
+msgid "client"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_paper__lolo
+msgid "lolo"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model,name:app_one.model_owner
+#: model:ir.model.fields,field_description:app_one.field_paper__owner
+msgid "owner"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model,name:app_one.model_paper
+msgid "paper"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_paper__phone
+msgid "phone"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model,name:app_one.model_property
+msgid "property"
+msgstr ""
+
+#. module: app_one
+#: model:ir.ui.menu,name:app_one.property_history_menu_item
+msgid "property history"
+msgstr ""
+
+#. module: app_one
+#: model:ir.actions.act_window,name:app_one.property_history_action
+msgid "property history action"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model,name:app_one.model_property_history
+msgid "property.history"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model,name:app_one.model_property_history_line
+msgid "property.history.line"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model,name:app_one.model_property_line
+msgid "property.line"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model.fields,field_description:app_one.field_paper__soso
+msgid "soso"
+msgstr ""
+
+#. module: app_one
+#: model:ir.model,name:app_one.model_tag
+msgid "tag"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+"أ. ومن المتفق عليه بين الطرفين ان نفاذ عقد البيع معلق على شرط قيام المشترى "
+"بسداد كامل الثمن وفى حالة التخلف عن سداد اى قسط من الاقساط المستحقة او جزء "
+"منها فى المواعيد المحددة لها لمدة تزيد عن شهرين من تاريخ الاستحقاق سواء "
+"التقاعس او نتيجة عدم وجود رصيد بالحساب لدى البنك او صدور الامر من البنك بوقف"
+" صرف الشيكات كلها او بعضها أو تقاعس الطرف الثانى عن سداد مبلغ القسط في تاريخ"
+" استحقاقه نقدا بخزينة الطرف الأول أو إرساله للحواله فى حساب الطرف الأول "
+"يعتبر هذا العقد مفسوخا من تلقاء نفسة دون الحاجة الى انذار او اعذار او تنبيه "
+"او حكم قضائى او اى اجراء قانونى اخر وفى هذه الحالة يكون للشركة (الطرف الاول "
+") الحق فى بيع الوحدة دون اعتراض من جانب المشترى وتقتصر حقوق المشترى على "
+"استرداد ما قام بسداده من مبلغ بعد خصم 10% من اجمالى ثمن الوحدة كمصاريف "
+"ادارية وتعويض اتفاقى على الفسخ طبقا لنص المادة (430/2) من القانون المدنى "
+"ويكون استرداد هذا المبلغ على اقساط اجله وبذات الطريقة التى تم السداد بها "
+"وعلى ان يبدأ هذا الاسترداد بعد مضى 90 يوماً من تاريخ اعتبار هذا العقد "
+"مفسوخاً."
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+"أرض التعامل المذكورة بعقد تنمية أرض بنظام المشاركة المؤرخ 1/ 3/ 2021 والمبرم"
+" بين جهاز مشروعات اراضى القوات المسلحه شركه الكازار للتطوير العمرانى بناحية "
+"طريق القاهرة – السويس والمحددة بموجب قرار رئيس الجمهورية رقم 565 لسنة 2020 "
+"والمبينة الحدود والمعالم بهذا القرار"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+"أولاً: شركة الكازار للتطوير العمرانى ، شركة مساهمة مصرية، سجل تجارى رقم "
+"128824، ومقرها الرئيسي كائن فى المبنى الإدارى بمشروع (كريك تاون) الكائن أمام"
+" مدخل الرحاب (2) وفندق تيوليب – التجمع الأول – القاهرة  ويمثلها فى التوقيع "
+"على هذا العقد السيد /ناجى نجيب أنيس والسيد / حمدي نصر امين عبدالرحمن بموجب "
+"التفويض الصادر لهما من الشركة فى هذا الخصوص ."
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "إنه فى يوم ..............الموافق ..................."
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+"اتخذ كل من الطرفين بعنوانه المذكور بصدر هذا العقد موطنا مختارا له بحيث تصح "
+"كافة المكاتبات والمراسلات والإعلانات والصحف المرسلة إليه فيه . <br/> <br/>"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+"اتفق الطرفان على أن القيمة الإجمآلية للوحدة مبلغ إجمالي وقدره ...........................جنيه مصرى ( .................................. جنيهآ مصرياً ) طبقاً للمرفق المالى .\n"
+"وبضمان حق إمتيازالبائع على الوحدة المباعة ولحين سداد كامل الثمن وغرامة التأخير (إن وجدت) تكون يد الطرف الثانى على الوحدة المبيعة موضوع العقد يد عارضة و لا يحق له التصرف فيها بأي نوع من أنواع التصرفات سواء البيع أو التنازل أو ترتيب أى حق عيني (أصلي أو تبعي) عليها لحين إنتهاء سداد باقى الثمن” سواء فى المواعيد المقررة طبقاً للجدول بالمرفق السابق بيانه أو بالسداد المُعجل \n"
+"يتحول العقد تلقائياً إلى \"عقد خالص الثمن\" له كافة الآثار القانونية المقررة فى هذا الشأن دون حاجة لأى إجراء."
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "البريد الألكتروني : ....................................."
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "البند الاول"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "البند التاسع"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "البند التاسع عشر"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "البند الثالث"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "البند الثالث عشر"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "البند الثامن"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "البند الثامن عشر"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "البند الثانى"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "البند الثاني عشر"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "البند الحادى عشر"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "البند الخامس"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "البند الخامس عشر"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "البند الرابع"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "البند الرابع عشر"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "البند السابع"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "البند السابع عشر"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "البند السادس عشر"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "البند السادس."
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "البند العاشر"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "البند العشرون"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "البندالحادي و العشرون"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+"التجمع السكنى الخدمى المتكامل المسمي (Creek Town) مُقام على قطعة أرض مساحتها"
+" حوالى (396480) متر مربع بناحية طريق القاهرة – السويس والمحددة بموجب قرار "
+"رئيس الجمهورية رقم 565 لسنة 2020 والمبينة الحدود والمعالم بهذا القرار"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "التزامات الطرف الثاني"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "التسليم"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "التشطيبات"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "التشطيبات الخارجية"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "التعاقد قبل استلام الوحدة"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "التنازل او الحوالة"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "التوقيعات"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "الثمن"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "الجنسية: ....................................."
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "الحقوق العينية والشخصية"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+"الرقم القومى: ...............................بتاريخ: "
+"....................................."
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+"السادة / شركه الكازار للتطوير العمرانى<br/>\n"
+"مقدمة لسيادتكم / ...........................مشتري الوحدة رقم ...................بمشروع كريك تاون  الكائن بطريق مصر السويس ، القاهرة بموجب عقد البيع الابتدائي المؤرخ ......./ 3/ 2022 ، بأنني أوافق علي تأسيس شركة إدارة وصيانة لمشروع كريك تاون  الكائن بطريق مصر السويس ، القاهرة مع تفويض الشركة باتخاذ الاجراءات اللازمة للتأسيس.\n"
+"<br/><br/><br/><br/>"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "الشرط الفاسخ الاتفاقى"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+"الشركة (الطرف الأول) تعمل في مجال الاستثمار العقاري خاصة ما يتعلق منها "
+"بمشروعات الإسكان والتنمية العمرانية وانشاء وتشييد التجمعات السكنية المتكاملة"
+" والمتميزة."
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "الضرائب والمصاريف الادارية"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "العدول عن عقد البيع"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "العنــــــوان   : ............................................."
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "العين  / الفيلا بمشروع كريك تاون"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "الغرض من إقامة وحدة التعامل"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "القانون الواجب التطبيق وفض المنازعات"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+"القرار الصادر من الجهه المختصه وهى الهيئة الهندسية للقوات المسلحة بأعتماد "
+"التقسيم الهندسي للمشروع والمخطط العام"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+"القواعد التنظيمية لإدارة وتنظيم الخدمات العامة والمشتركة لوحدات المشروع التي"
+" يضعها البائع او شركة الإدارة والصيانة."
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "القوة القاهرة"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "الكشف المالى"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "المخطط العام"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "المراسلات"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+"المشترى فى هذا العقد وخلفه العام وأى خلف خاص له لأياً من التزامات هذا العقد."
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "المعاينة التامة النافية للجهالة ."
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "امتياز البائع علي الوحدة موضوع العقد لحين سداد كامل الثمن وملحقاته."
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+"اولا : حالة تأخر الطرف الثانى عن السداد قبل استلام الوحدة أيا كان سبب "
+"التاخير :"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+"ب. فى حالة تاخر الطرف الثانى عن سداد اى قسط من أقساط الثمن وملحقاته طبقا "
+"للمواعيد المحددة بالملحق المالى المرفق بهذا العقد يصبح الطرف الثانى ملزما "
+"بسداد غرامة تأخير بواقع 2% ( أثنان بالمائة ) شهريا عن شهر أو جزء من الشهر عن"
+" القسط محل التأخير ابتداء من اليوم التالي لتاريخ استحقاقه و حتى تمام السداد"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+"بخلاف ثمن الشراء المبين عاليه يلتزم الطرف الثانى بسداد مبلغ قدره ..............................جنيه مصرى ( ................................ جنيها مصريا ) من حساب قيمة حصة الصيانة والادارة المستحقة على الوحدة المبيعه تسدد وفقا للبيان المالى رقم (   1  ) وتمثل حصة المشترى فى رسوم خدمة وصيانة المرافق العامة<br/> \n"
+"بالمشروع وسوف يتم تجميع الموارد المالية التى يتم تحصيلها من جميع المشتريين وايداعها فى حساب ادارة وصيانة المشروع للصرف من عائدها على ادارة وتشغيل وصيانة المشروع على ان يتحول ذلك المبلغ الى حساب شركة الادارة التى يتم تأسيسها أو التعاقد معها لادارة المشروع . <br/>"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+"بعد أن اقر كل من الحاضرين بكامل أهليته وصلاحيته للتعاقد والاتفاق ، واقر "
+"الممثل القانوني للطرف الأول بتمام وكمال سلطاته وصلاحياته ، اتفق الطرفان على "
+"البيع الوارد بهذا العقد ."
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "تحرر هذا العقد بين كلاً من:"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+"تحرر هذا العقد من نسختين متطابقتين متساويتين في الحجية والقوة والأثر ، مكون "
+"من عدة صفحات تسلم كل طرف نسخة منه للعمل بموجبها عند الحاجة ، وينسخ هذا العقد"
+" اى أوراق أو اتفاقات شفوية أو مكتوبة سبق للطرفين العمل بها . <br/> <br/>"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "تعريفات"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.view_sale_order_form
+msgid "تقرير كشف حساب العملاء"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "تمهيد"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "ثانيا : حالة تأخر الطرف الثانى عن السداد بعد استلامه الوحدة : <br/>"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "ثانياً: اسم المشترى: .............................."
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+"ج. التزام الطرف الثانى بسداد القسط المستحق وغرامة التأخير المحتسبة عليه معا "
+"وفى ذات الوقت ولا يعتبر قبول الطرف الاول لقيمة القسط او ايداع الطرف الثانى "
+"لقيمة القسط فى حساب الطرف الاول تنازلا عن الغرامة ويحق للطرف الاول مطالبة "
+"الطرف الثانى بقيمتها فى اى وقت"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "حجية التعريفات والتمهيد والمرفقات"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "حق الشفعة"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+"د. بسداد ما يتأخرمن اقساط او قبول الشركة لسداد هذه المتأخرات لا يعتبر تنازلا"
+" عن الشرط الصريح الفاسخ ويحق للشركة تطبيقه على باقى الاقساط الاخرى بحيث يصبح"
+" هذا الشرط نافذ الاثر دائما حتى سداد كامل الثمن فأذا تكرر تأخر المشترى او "
+"امتنع عن سداد اى قسط يكون للطرف الاول اعتبار العقد مفسوخا من تلقاء نفسه دون "
+"حاجة الى تنبيه او انذار او اعذار او استصدار حكما من القضاء ويكون للبائع "
+"التصرف فى الوحدة محل هذا العقد."
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "رسومات الوحده المبيعه"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "رقم التليفون : ......................................"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "شرط المنع من التصرف ، وحق امتياز البائع"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+"شركه الكازار للتطوير العمرانى ( ش . م . م ) المطور لمشروع كريك تاون المتكامل"
+" على مساحة 396480 م2 (البائع)"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.view_sale_order_form
+msgid "طباعة كشف حساب العملاء"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+"طبقا لمخطط الوحدة شاملة المرافق من مياه وكهرباء وصرف حتى حدود الوحدة المبيعه"
+" ويقر المشترى بإنه من سيقوم بإتخاذ الإجراءات القانونية نحو تركيب عداد "
+"الكهرباء والمياه والغاز وعلى نفقته الخاصة يتم انشاؤها بالمواصفات الانشائية "
+"والهندسية المبينه بالمرفق(   3  )"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "طريقة السداد :-  3/3"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "طلب تأسيس شركة إدارة وصيانة المشروع"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "عقد بيع ابتدائى"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.property_view_form
+msgid "فواءد الانف"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "فيلا سكنية"
+msgstr ""
+
+#. module: app_one
+#: model:ir.actions.report,name:app_one.paper_creak_report
+msgid "كريك"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+"لا يعد إخلال من البائع تأخره فى تنفيذ التزاماته التعاقدية أو إذا لم يستطع أن"
+" ينفذها نتيجة لحالة من حالات القوة القاهرة المنصوص عليها في القانون. <br/> "
+"<br/>"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "مجمل الإتفاق والقابلية للتجزئة"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "مرفق رقم (1)"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "مرفق رقم (2)"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "مرفق رقم (3)"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "مرفق رقم (4)"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "مستندات الملكية ورسوم تسجيل الوحدة موضوع هذا العقد :"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+"من المعروف للطرفين والمتفق عليه بينهما أن الثمن أو قسط الثمن أو قسط الصيانة لا يعتبر مسددا إلا بصرف الشيك المقابل له في تاريخ استحقاقه أو سداد الطرف الثاني مبلغ القسط في تاريخ استحقاقه نقدا بخزينة الطرف الأول أو إرساله للحواله فى حساب الطرف الأول بحيث إذا حدث ولم يصرف اى شيك من شيكات الأقساط  في تاريخ استحقاقه بسبب راجع للطرف الثاني أو لم يقم الطرف الثانى بسداد مبلغ القسط فى خزينة الشركة أو الحواله تطبق الشروط والأحكام الأتيه : <br/>\n"
+"<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "موضوع العقد"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "نسخ العقد :"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "نقل ملكية الوحدة المتعاقد عليها إلى الطرف الثانى وفق مقتضى العقد."
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+"هذا العقد ومرفقاته المشار إليها بمتنه وملحق الاشتراطات العامة للملاك و "
+"المنتفعين والعقد المؤرخ فى....../ ...../2022 ، وملاحقه التى تلحق به بإتفاق "
+"الطرفين وتوقيعهما."
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+"هـ. يحق للطرف الاول بعد اجراء الفسخ التصرف فى الوحدة المبيعه وملحقاتها بأى "
+"نوع من انواع التصرفات المقررة للمالك على ملكه وذلك على النحو الذى يراه محققا"
+" لمصلحته مع موافقة الطرف الثانى تفويض الطرف الاول فى ان يقوم من تلقاء نفسه "
+"بخصم قيمة التعويض الاتفاقى المشار اليه فى الفقرة السابقة ."
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+"وبيع الوحدات بنفسه أو بواسطة الغير  وحيث ينفرد الطرف الأول (الشركة) بعمل "
+"الدراسات والتصميمات الهندسية اللازمة لإقامة المشروع وتمهيد تلك الأرض "
+"واعدادها للبناء وتنفيذ أعمال التشييد وتنفيذ شبكات المرافق والموقع العام "
+"وبناء الوحدات السكنية والفيلات والوحدات الإدارية والمحلات التجارية ومباني "
+"الخدمات وغير ها من المشتملات"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+"وتعنى جميع المناطق داخل المشروع والتى يخصصها        الطرف الاول كمناطق "
+"تجاريه وخدميه التى لا تدخل ضمن الاجزاء  المشتركة ويملك الطرف الاول وحده حق "
+"تطويرها واستغلاله والتصرف فيها"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+"وحدة التعامل وحدة ( سكنية )  لا تستعمل أو تستغل أو يتصرف فيها إلا باعتبارها "
+"وحدة سكنية ، ولا يجوز استعمالها أو استغلالها أو التصرف فيها إلا بوصف وحدة "
+"سكنية ، وكذلك لا يجوز مطلقا وضع أية لافتات أو إعلانات على واجهة الوحدة أو "
+"الجدران أو السلم أو غير ذلك ."
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+"وحيث أسند جهاز مشروعات أراضي القوات المسلحة بموجب عقد تنمية الأرض بنظام "
+"المشاركة المؤرخ في 1/3/2021 الى الشركة الطرف الأول بالعقد لبناء وتشييد تجمع "
+"سكنى وتجارى وترفيهي وخدمي وادارى على نفقتها وتحت مسئوليتها في تسويق"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+"وحيث يملك جهاز مشروعات أراضي القوات المسلحة المنشأ بالقرار الجمهوري رقم 531 "
+"لسنة 1981 وتعديلاته قطعة أرض بمساحة 396480 م2 (ثلاثمائة وست وتسعون الف "
+"واربعمائة وثمانون متراً مربعاً)"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "وديعة الصيانة ، وتفويض الطرف الأول في أعمال الإدارة :"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+"ورغبتاً من المشترى (الطرف الثانى) فى شراء وحده فى المشروع المذكور والمملوك "
+"للطرف الأول وسداد الثمن وملحقاته على أقساط وأقر وقبل شرائها على هذا التعاقد "
+"فقد إتفقا على البنود الأتيه :"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+"وكذا ينفرد الطرف الأول (الشركة) بذاته او بالاستعانة بالغير ممن يختاره الطرف "
+"الأول بإدارة التجمع السكنى المقام على مساحة 396480م2."
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+"ويلتزم الطرف الأول بالحفاظ على هذا المبلغ كوديعة يخصص ريعها لسداد ما يرى "
+"سداده من مصاريف الإدارة والصيانة والنظافة والحراسة والكهرباء والمياه ، وفي "
+"حالة إخلال الطرف الثاني بسداد مبلغ وديعة الصيانة  لمدة خمسه عشر يوما من "
+"تاريخ استحقاقة يعتبر هذا العقد مفسوخا من تلقاء نفسه دون حاجه إلى إنذار أو "
+"إعذار أو تنبيه أو حكم قضائى أو أى إجراء قانونى آخر ويكون للبائع التصرف في "
+"الوحدة محل هذا العقد ."
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+"يحق للطرف الاول فى هذه الحالة التمسك بكافة الاحكام المشار اليها بالفقرة اولا"
+" عاليه مع أعتبار يد الطرف الثانى على الوحدة يد غاصبه لا سند لها من القانون "
+"وإلزامه بتسليم الوحدة للطرف الأول ويكون للبائع، إضافة الى النسبة المذكورة في"
+" البند اعلاه، خصم نسبة تساوي 1% من قيمة الثمن شهريا من المبالغ المسددة من "
+"المشتري لقاء انتفاعه بالعين المباعة عن الفترة اعتبار من تاريخ استلام المشترى"
+" للوحدة المباعة وحتى تاريخ إخلائه للعين."
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+"يعتبر التمهيد السابق وشروط التعاقد وبنود هذا العقد وأي من اللوائح والإرشادات"
+" التي تم تسليمها أو سيسلمها البائع إلى المشتري سواء قبل أو بعد استلام "
+"الوحدة، والملاحق المرفقة بهذا العقد جزءًا لا يتجزأ من هذا العقد ومتممة "
+"ومكملة ومفسرة لأحكامه."
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "يعني ثمن الوحدة و وديعة ومصاريف الصيانة والإدارة وغرامة التأخير."
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+"يقر الطرف الثاني بتنازله عن حق الأخذ بالشفعة بالنسبة لكافة التصرفات التي "
+"تصدر من الطرف الأول بشأن باقي وحدات وأجزاء التجمع السكنى المعروف باسم كريك "
+"تاون وينصرف هذا التنازل للخلف ."
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+"يقر كل من البائع والمشتري قد قام بقراءة وفهم العقد وملحقاته ووقع الطرفان علي جميع الصفحات.\n"
+"       شركة/ الكازار للتطوير العمراني <br/><br/>.المشترى : ........................................ <br/>\n"
+"الأسم : ............................          التوقيع:...................................       <br/>  \n"
+"الاسم:.....................  \t\tالتوقيع :...................... ...........................        \n"
+":........................... <br/> الاسم:...................... ...........................        \n"
+"التوقيع : .................. ................................"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+"يقصد بها الشركة المتخصصه التى يعهد اليها بأدارة المشروع لادارة وصيانة "
+"المناطق المشتركة والمرافق الاساسية"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+"يقصد بها العائق الخارج عن الارادة والذى لا يمكن تجنبه او تجنب عواقبه على "
+"سبيل المثال الكوارث الطبيعية والحروب والثورات والاوبئة والعصيان المدنى..... "
+"الى اخره"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+"يقصد بها المبالغ التي سيتم إستغلال عوائدها للإنفاق على صيانة المرافق "
+"المشتركة بالمشروع."
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+"يقصد بها كافة الاعمال الدوريه اللازمة لصيانة ونظافة المرافق المشتركة "
+"والاماكن العامة بالمشروع بالاضافة الى الامن والحراسة وما الى ذلك"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+"يكون للمسميات الواردة بعد الدلالة والمعانى قرين كل منها ما لم تتعارض مع سياق"
+" النص:"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+"يلتزم الطرف الأول بتقديم مستندات ملكيته ارض ومباني تجمع كريك تاون وذلك عند "
+"تسلمها مستقبلاً من جهاز مشروعات اراضى القوات المسلحة ، وفى جميع الأحوال يظل "
+"هذا العقد ذي حجية وقوة واثر فيما ورد به ولم يتضمنه عقد البيع النهائي ."
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid ""
+"يوافق ويلتزم الطرف الثاني في حالة قيامه بالتشطيبات بمعرفته وعلى مسئوليته بأصدار شيكاً بنكياً بمبلغ 200,000 ألف جنيه مصري ( مائتا الف جنيه )،يتم تحريره عند استلام الوحدة بالمبلغ على أن يرد هذا الشيك في حالة الانتهاء من التشطيبات خلال مدة السنة التي تبدأ من تاريخ استلام الوحدة شريطة عدم حدوث أية مخالفات أو تلفيات للملكيات العامة أو الخاصة أو أي من المرافق العامة للمشروع و في حالة التأخير في الانتهاء من التشطيبات الداخلية خلال تلك المدة يتم خصم غرامة تأخير قدرها 1000 جنية (ألف جنيهاً) من هذا المبلغ عن كل يوم تأخير بداية من تاريخ انتهاء أجل التشطيبات كتعويض اتفاقي غير خاضع لرقابة القضاء وكذا يتم خصم ما عسى أن يكون الطرف الثاني أو أحد تابعيه قد تسبب في إتلافه من الملكيات والمرافق العامة أو الخاصة أثناء فترة التشطيبات ويجوز للشركة الطرف الاول الرجوع على الطرف الثاني اذا كانت قيمة الاضرار تفوق قيمة مبلغ التامين او ما تبقى منه .\n"
+"وحال رغبة الطرف الثاني في إسناد أعمال التشطيبات الى الطرف الأول يتم التقدم بطلب كتابي لاختيار نوع التشطيب طبقاً للنماذج المعروضة والمحددة من الطرف الأول على أن يتم احتساب تكلفة التشطيبات التي تم اختيارها والاتفاق عليها على عاتق الطرف الثاني(المشترى) وقت التنفيذ."
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "١. العقد:"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "٢. الطرف الأول:"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "٣. المشروع :"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "٤. الطرف الثانى:"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "٥. قطعة الأرض:"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "٦. الثمن:"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "٧. حق الامتياز:"
+msgstr ""
+
+#. module: app_one
+#: model_terms:ir.ui.view,arch_db:app_one.paper_creak_report_template
+msgid "٨. المبيع:"
+msgstr ""

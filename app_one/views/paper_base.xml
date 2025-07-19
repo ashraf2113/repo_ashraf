@@ -1,0 +1,12 @@
+<odoo>
+    <menuitem
+        id="deed_root_menu"
+        name="App_one"
+        web_icon="app_one,static\description\aksa.png"
+    />
+
+    <menuitem
+        id="deed_menu"
+        name="Properties"
+        parent="deed_root_menu" />
+</odoo>
