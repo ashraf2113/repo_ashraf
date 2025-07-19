@@ -1,0 +1,69 @@
+<odoo>
+
+    <record id="stock_warehouse_weather_tree" model="ir.ui.view">
+        <field name="name">stock warehouse weather Tree</field>
+        <field name="model">stock.warehouse.weather</field>
+        <field name="arch" type="xml">
+            <tree>
+<!--               <button name="action_fetch_weather" type="object" string="تحديث الطقس" class="oe_highlight"/>-->
+
+                <field name="lot_id"/>
+<!--                <field name="name_plant"/>-->
+                <field name="watering_date"/>
+                <field name="next_watering_date"/>
+                <field name="watering_frequency"/>
+                <field name="user_id"/>
+<!--                <field name="note"/>-->
+                 <field name="warehouse_id"/>
+<!--                  <field name="weather_datetime"/>-->
+<!--                  <field name="temperature"/>-->
+<!--                  <field name="humidity"/>-->
+<!--                  <field name="pressure"/>-->
+<!--                  <field name="rain_mm"/>-->
+
+            </tree>
+        </field>
+    </record>
+
+    <record id="stock_warehouse_weather_form" model="ir.ui.view">
+        <field name="name">stock warehouse weather form</field>
+        <field name="model">stock.warehouse.weather</field>
+        <field name="arch" type="xml">
+            <form multi_edit="1" create="1" edit="1" delete="1">
+               <button name="action_fetch_weather" type="object" string="تحديث الطقس" class="oe_highlight"/>
+<group>
+         <group>
+             <field name="lot_id"/>
+             <field name="warehouse_id"/>
+                <field name="name_plant"/>
+                <field name="watering_date"/>
+                <field name="next_watering_date"/>
+                <field name="watering_frequency"/>
+                <field name="user_id"/>
+
+         </group>
+         <group>
+
+                  <field name="weather_datetime"/>
+                  <field name="temperature"/>
+                  <field name="humidity"/>
+                  <field name="pressure"/>
+                  <field name="rain_mm"/>
+              <field name="note"/>
+        </group>
+    </group>
+            </form>
+        </field>
+    </record>
+    <!-- أكشن قائمة flower.water -->
+    <record id="action_stock_warehouse_weather" model="ir.actions.act_window">
+        <field name="name">weather</field>
+        <field name="res_model">stock.warehouse.weather</field>
+        <field name="view_mode">tree,form</field>
+        <field name="domain">[]</field>
+    </record>
+    <menuitem id="ashraf_stock_warehouse_weather" name="Weather"
+              parent="menu_plant_watering_root"
+              action="action_stock_warehouse_weather"/>
+
+</odoo>

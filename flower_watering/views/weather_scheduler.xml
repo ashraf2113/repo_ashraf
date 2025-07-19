@@ -1,0 +1,31 @@
+<odoo>
+<record id="view_warehouse_form_inherit_city" model="ir.ui.view">
+    <field name="name">stock.warehouse.form.inherit.city</field>
+    <field name="model">stock.warehouse</field>
+    <field name="inherit_id" ref="stock.view_warehouse"/>
+    <field name="arch" type="xml">
+        <xpath expr="//field[@name='partner_id']" position="after">
+            <field name="city"/>
+            <button name="action_fix_partner_city"
+                    type="object"
+                    string="إصلاح العنوان"
+                    class="oe_highlight"/>
+        </xpath>
+    </field>
+</record>
+
+    <record id="view_warehouse_tree_inherit_city" model="ir.ui.view">
+    <field name="name">stock.warehouse.tree.inherit.city</field>
+    <field name="model">stock.warehouse</field>
+    <field name="inherit_id" ref="stock.view_warehouse_tree"/>
+    <field name="arch" type="xml">
+        <xpath expr="//field[@name='partner_id']" position="after">
+            <field name="city"/>
+            <button name="action_fix_partner_city"
+                    type="object"
+                    string="إصلاح العنوان"
+                    class="oe_highlight"/>
+        </xpath>
+    </field>
+</record>
+</odoo>
