@@ -1,0 +1,135 @@
+<odoo>
+    <!-- Tree View -->
+    <record id="tree_hanafy_borse_views" model="ir.ui.view">
+        <field name="name">hanafy.borse.tree</field>
+        <field name="model">hanafy.borse</field>
+        <field name="arch" type="xml">
+            <tree>
+                <header>
+                    <button name="action_account_move" class="tex-danger" string="Hanafy" type="object"/>
+                </header>
+                <field name="number"/>
+                <field name="invoice_date"/>
+                <field name="invoice_date_due"/>
+                <field name="total_ashraf"/>
+                <field name="currency_id"/>
+            </tree>
+        </field>
+    </record>
+
+    <!-- Form View -->
+    <record id="form_hanafy_borse_views" model="ir.ui.view">
+        <field name="name">hanafy.borse.form</field>
+        <field name="model">hanafy.borse</field>
+        <field name="arch" type="xml">
+            <form>
+                <header>
+                    <button name="action_account_move" class="oe_highlight" string="Hanafy" type="object"/>
+                </header>
+                <sheet>
+                    <group>
+                        <field name="move_id"/>
+                        <field name="number"/>
+                        <field name="invoice_date"/>
+                        <field name="invoice_date_due"/>
+                        <field name="total_ashraf"/>
+                        <field name="currency_id"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+
+        <!-- Server Action: تحديث البيانات + فتح القائمة -->
+    <record id="server_action_hanafy_borse_open_list" model="ir.actions.server">
+        <field name="name">Run Action and Open List</field>
+        <field name="model_id" ref="model_hanafy_borse"/>
+        <field name="state">code</field>
+        <field name="code">
+model.action_account_move()
+action = env.ref('ashrofaaa.action_hanafy_borse_window').read()[0]
+        </field>
+    </record>
+        <!-- Server Action: فتح التقرير -->
+    <record id="server_action_hanafy_borse_open_report" model="ir.actions.server">
+        <field name="name">Run Action and Open Report</field>
+        <field name="model_id" ref="model_hanafy_borse"/>
+        <field name="state">code</field>
+        <field name="code">
+action = model.call_report_hanafy()
+        </field>
+    </record>
+
+            <!-- Server Action: فتح التقرير -->
+    <record id="server_action_hanafy_borse_static_report" model="ir.actions.server">
+        <field name="name">Run Action and  Report</field>
+        <field name="model_id" ref="model_hanafy_borse"/>
+        <field name="state">code</field>
+        <field name="code">
+action = model.print_report()
+        </field>
+    </record>
+    <record id="action_print_abstract_report" model="ir.actions.server">
+        <field name="name">Print Hanafy Report</field>
+        <field name="model_id" ref="account.model_account_move"/>
+        <field name="state">code</field>
+        <field name="code">
+records_dict = env['report.ashrofaaa.hanafy_account_report_template']._get_report_values(docids=[])
+action = env.ref('ashrofaaa.hanafy_account_a_report').report_action(records_dict['doc_ids'])
+        </field>
+    </record>
+
+    <record id="server_action_open_wizard" model="ir.actions.server">
+        <field name="name">Wizard For Report</field>
+        <field name="model_id" ref="model_hanafy_borse"></field>
+        <field name="state">code</field>
+        <field name="code">
+action = env.ref('ashrofaaa.action_report_wizard_window').read()[0]
+action
+
+
+        </field>
+
+    </record>
+       <!-- Action: عرض Tree + Form -->
+    <record id="action_hanafy_borse_window" model="ir.actions.act_window">
+        <field name="name">Hanafy Borse</field>
+        <field name="res_model">hanafy.borse</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <!-- Menus -->
+    <menuitem id="menuitem_hanafy_borse_qq"
+              name="Hanafy"
+              parent="menu_hospitalss_root"
+              sequence="160"/>
+
+
+    <menuitem id="menuitem_hanafy_tttttttt"
+              name="Action Hanafy"
+              parent="menuitem_hanafy_borse_qq"
+              action="server_action_hanafy_borse_open_list"
+              sequence="200"/>
+    <menuitem id="menuitem_hanafy_ded"
+              name="Action Hanafy Report"
+              parent="menuitem_hanafy_borse_qq"
+              action="server_action_hanafy_borse_open_report"
+              sequence="220"/>
+        <menuitem id="menuitem_hanafy_nhy"
+              name="Print Abstract Report"
+              parent="menuitem_hanafy_borse_qq"
+              action="action_print_abstract_report"/>
+
+        <menuitem id="menuitem_hanafy_hghh"
+              name=" Hanafy Report static"
+              parent="menuitem_hanafy_borse_qq"
+              action="server_action_hanafy_borse_static_report"
+              sequence="254"/>
+        <menuitem id="menu_wizard_report"
+                name="Wizard For Report"
+                parent="menuitem_hanafy_borse_qq"
+                action="server_action_open_wizard"
+                sequence="330"/>
+
+</odoo>

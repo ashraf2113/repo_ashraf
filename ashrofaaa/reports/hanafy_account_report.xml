@@ -1,0 +1,73 @@
+<odoo>
+
+
+   <record id="hanafy_account_a_report" model="ir.actions.report">
+      <field name="name">   hanafy account  Report</field>
+      <field name="model">account.move</field>
+      <field name="report_type">qweb-pdf</field>
+<!--       <field name="binding_model_id" ref="hr_payroll.model_hr_payslip"/>-->
+      <field name="binding_type">report</field>
+      <field name="report_name">ashrofaaa.hanafy_account_report_template</field>
+   </record>
+<template id="hanafy_account_report_template">
+    <t t-call="web.html_container">
+        <t t-call="web.basic_layout">
+            <style>
+                .border-box {
+                    border: 2px solid black;
+                    text-align: center;
+                    font-size: 14px;
+                    font-weight: bold;
+                    width: 100%;
+                    border-collapse: collapse;
+                }
+                .border-box th, .border-box td {
+                    border: 1px solid black;
+                    padding: 5px;
+                }
+            </style>
+            <div class="border-box">
+                <table class="border-box" style="direction:rtl;">
+                    <thead>
+                        <tr>
+                            <th>رقم الفاتورة</th>
+                            <th>تاريخ الفاتورة</th>
+                            <th>تاريخ الاستحقاق</th>
+                            <th>الإجمالي</th>
+                            <th>العملة</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <t t-foreach="docs" t-as="doc">
+                            <tr>
+                                <td><span t-field="doc.name"/></td>
+                                <td><span t-field="doc.invoice_date"/></td>
+                                <td><span t-field="doc.invoice_date_due"/></td>
+                                <td><span t-field="doc.amount_total_signed"/></td>
+                                <td><span t-field="doc.currency_id"/></td>
+                            </tr>
+                        </t>
+                    </tbody>
+                </table>
+            </div>
+        </t>
+    </t>
+</template>
+
+
+
+
+        </odoo>
+
+
+
+ 
+   
+  
+ 
+
+   
+   
+  
+   
+ 

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <record id="form_wizard_report" model="ir.ui.view">
+        <field name="name">wizard report</field>
+        <field name="type">form</field>
+        <field name="model">wizard.report</field>
+        <field name="arch" type="xml">
+            <form>
+        <sheet>
+        <group>
+              <field name="name"/>
+             <field name="date_from"/>
+              <field name="date_to"/>
+        </group>
+
+           <group>
+                    <footer>
+                        <button name="print_report" string="Hanafy Report" type="object" class="oe_highlight"/>
+                        <button string="Cancel" special="cancel" class="btn-secondary"/>
+                    </footer>
+        <!--  <button name="print_report" class="oe_highlight" string="Hanafy Report" type="object"/>-->
+          </group>
+        </sheet>      
+        </form>
+           </field>
+    </record>
+
+<record id="action_report_wizard_window" model="ir.actions.act_window">
+    <field name="name">Wizard Report</field>
+    <field name="res_model">wizard.report</field>
+    <field name="view_mode">form</field>
+    <field name="target">new</field>
+</record>
+
+
+     <menuitem id="menu_wizard_frki"
+    name="Wizard My Report"
+    parent="menu_hospitalss_root"
+    action="action_report_wizard_window"
+    sequence="400"/>
+
+</odoo>

@@ -1,0 +1,152 @@
+<odoo>
+
+
+   <record id="hanafy_abb_report" model="ir.actions.report">
+      <field name="name">   hanafy static  Report</field>
+      <field name="model">hanafy.borse</field>
+      <field name="report_type">qweb-pdf</field>
+<!--       <field name="binding_model_id" ref="hr_payroll.model_hr_payslip"/>-->
+      <field name="binding_type">report</field>
+      <field name="report_name">ashrofaaa.hanafy_report_template</field>
+   </record>
+
+
+
+<template id="hanafy_report_template">
+    <t t-call="web.html_container">
+            <t t-call="web.basic_layout">
+<!--            <t t-foreach="records" t-as="doc">-->
+ <style>
+        .border-box {
+            position: relative;
+            width: auto;
+            height: auto;
+            border: 2px solid black;
+            text-align: center;
+            <!-- line-height: 5px; -->
+            font-size: 14px;
+            font-weight: bold;
+            <!-- margin: 5px auto; -->
+             <!-- border-radius: 10px; /* لتدوير الزوايا */ -->
+            display: inline-block; /* لضبط الحجم حسب المحتوى */
+            <!-- color:purple; -->
+            <!-- color:#800080; -->
+
+        }
+ </style>
+<div class="border-box">
+
+
+    <table style="direction:rtl;" height="650px"  class="text-center  table-sm p-0 m-0 table table-bordered">
+
+        <tr>
+         <td class="text-center" colspan="14">شريط قبض راتب الموظف</td>
+        </tr>
+      <tr class="text-right">
+            <td colspan ="4">شريط قبض شهر </td>
+            <td colspan ="4">مارس</td>
+        </tr>
+        <tr class="text-right">
+
+            <td>الكود</td>
+            <td colspan ="6">الاسم</td>
+             <td>القسم</td>
+
+        </tr>
+        <tr class="text-right">
+            <td>aaaaaaa</td>
+            <td colspan ="6">aaaaaaa</td>
+            <td>aaaaaaa</td>
+
+        </tr>
+
+        <tr class="text-right">
+    <td colspan="8" class="text-center">الاستحقاقات</td>
+        </tr>
+        <tr class="text-right">
+
+                <td>الراتب الاساسي</td>
+                <td>اضافي الجمعة</td>
+                <td>اضافي الجمعة بالقيمة</td>
+                <td>اضافي الساعات</td>
+                <td>اضافي الساعات بالقيمة</td>
+                <td>حافز الانتظام</td>
+                <td>حافز الانتاج</td>
+                <td>العيدية</td>
+                <td style="background-color: yellow;" colspan="2">اجمالي الاستحقاقات</td>
+
+
+
+        </tr>
+        <tr class="bg-info right">
+
+            <td colspan ="2">aaaaaaa</td>
+            <td>aaaaaaa</td>
+            <td>aaaaaaa</td>
+            <td>aaaaaaa</td>
+            <td>aaaaaaa</td>
+            <td>aaaaaaa</td>
+            <td>aaaaaaa</td>
+            <td>aaaaaaa</td>
+            <td>aaaaaaa</td>
+
+        </tr>
+        <tr>
+
+            <td class="text-center"  colspan="14">الاستقطاعات</td>
+        </tr>
+        <tr class="bg-info">
+            <td class="text-center">السلف</td>
+            <td class="text-center" colspan="2">التامينات الاجتماعية</td>
+            <td class="text-center">جزاءات</td>
+            <td class="text-center">عدد ايام الغياب</td>
+            <td class="text-center">قيمة ايام الغياب</td>
+            <td class="text-center">عدد ايام الغياب بدون اذن</td>
+            <td class="text-center">قيمة الغياب بدون اذن</td>
+            <td class="text-center">ساعات التاخير طبقا للاءحة</td>
+            <td class="text-center">التاخير بالقيمة</td>
+            <td class="text-center">ساعات الاذن</td>
+            <td class="text-center">ساعات الاذن بالقيمة</td>
+            <td style="background-color: yellow;" class="text-center" colspan="2">اجمالي الاستقطاعات</td>
+
+        </tr>
+        <tr>
+            <td class="text-center">aaaaaaa</td>
+            <td class="text-center" colspan="2">aaaaaaa</td>
+            <td class="text-center">aaaaaaa</td>
+            <td class="text-center">aaaaaaa</td>
+            <td class="text-center">aaaaaaa</td>
+            <td class="text-center">aaaaaaa</td>
+            <td class="text-center">aaaaaaa</td>
+            <td class="text-center">aaaaaaa</td>
+            <td class="text-center">aaaaaaa</td>
+            <td class="text-center">aaaaaaa</td>
+            <td class="text-center">aaaaaaa</td>
+            <td class="text-center">aaaaaaa</td>
+        </tr>
+        <tr>
+            <td colspan="4">صافي الراتب</td>  <td colspan="3">aaaaaaaaaaaaaa</td>
+        </tr>
+    </table>
+
+
+</div>
+<!--        </t>-->
+        </t>
+        </t>
+        </template>
+
+        </odoo>
+
+
+
+ 
+   
+  
+ 
+
+   
+   
+  
+   
+ 

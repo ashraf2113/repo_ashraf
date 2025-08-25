@@ -11,18 +11,24 @@
     'depends': ['base', 'mail', 'product', 'sale', 'sale_management'],
     'data': [
         'security/ir.model.access.csv',
+        "data/access_wizard_report.xml",
         "data/data_fam_pat.xml",
         "data/sequence_ash.xml",
         # "data/data_pat_a.csv",
         "views/menu.xml",  # يتم تحميل تعريف القوائم أولاً
-        "wizard/cancel_in_wizard.xml",  # يتم تحميل هذا الملف بعد القوائم
+        "reports/hanafy_static_report.xml",
+        "reports/hanafy_account_report.xml",
+        "wizard/cancel_in_wizard.xml",
+        "wizard/wizard_report.xml",
         "views/customers_view.xml",
+        "views/hanafy_borse_view.xml",
         "views/lawyers_view.xml",
         "views/patients_view.xml",
         "views/females_patients_view.xml",
         "views/inhe_mod.xml",
         "views/plays_ground.xml",
         # "views/report_inherits.xml",
+
     ],
     'demo': [],
     'application': True,
