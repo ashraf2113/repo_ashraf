@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+}
+body{
+    width:2000px;
+    height:2000px;
+}
+.navbar{
+    width: 120px;
+    height: 100vh;
+    background: chartreuse;
+    color: blue;
+}
+.navbar li{
+    padding: 11px;
+}
+.navbar ul li:hover,button:hover{
+    background: black;
+    cursor: pointer;
+}
+button{
+    background: chartreuse;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+#close{
+    position: absolute;
+    left: 120px;
+
+}
+.hide{
+    display: none;
+}
+.photos img{
+    width: 150px;
+    height:180px;
+    border: 5px solid #aaa;
+}
+.photos img:hover{
+    cursor: pointer;
+    border: 5px solid #080;
+}
+.main img{
+    width: 465px;
+    height: 465px;
+    border: 5px solid #aaa;
+
+}
+#button2{
+    width: 20px;
+    height: 20px;
+    border: none;
+    background: #fa0;
+    cursor: pointer;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    display: none;
+}
+.div1{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+#red{
+    background: red;
+}
+#green{
+    background: green;
+}
+#blue{
+    background: blue;
+}
+#black{
+    background: black;
+}
