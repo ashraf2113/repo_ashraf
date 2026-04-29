@@ -1,0 +1,212 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #111;
+  color: #fff;
+  display: flex;
+  height: 100vh;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 200px;
+  background: #222;
+  padding: 20px;
+  height: 100vh;
+}
+
+.sidebar .profile {
+  margin-bottom: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar ul li {
+  margin: 15px 0;
+}
+
+.sidebar ul li a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 8px 12px;
+  border-radius: 4px;
+}
+
+.sidebar ul li a:hover {
+  background-color: red;
+}
+
+/* Main Content */
+.content {
+  flex: 1;
+  padding: 20px;
+  position: relative;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: auto;
+}
+
+.hero-img {
+  width: 300px;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.name {
+  color: red;
+  font-size: 40px;
+}
+
+.title {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.tagline {
+  font-style: italic;
+  margin: 10px 0;
+}
+
+.desc {
+  margin-top: 20px;
+  text-align: center;
+  max-width: 600px;
+}
+
+/* Sections */
+section {
+  margin-top: 40px;
+  max-width: 800px;
+  text-align: left;
+}
+
+section h2 {
+  color: #ff4444;
+  margin-bottom: 15px;
+}
+
+section p, section ul {
+  line-height: 1.6;
+}
+
+section ul {
+  padding-left: 20px;
+}
+
+.certificate-img {
+  width: 400px;
+  margin-top: 15px;
+  border: 2px solid #fff;
+  border-radius: 6px;
+}
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.skill {
+  background: #333;
+  padding: 12px;
+  text-align: center;
+  border-radius: 6px;
+  transition: background 0.3s;
+}
+
+.skill:hover {
+  background: #ff4444;
+}
+.home {
+  display: flex;              /* يخلي العناصر جنب بعض */
+  align-items: center;        /* يوسّطهم عموديًا */
+  justify-content: center;    /* يوسّطهم أفقيًا */
+  padding: 60px 20px;
+}
+
+.home-left {
+  flex: 1;
+  text-align: center;
+}
+
+.hero-img {
+  width: 300px;
+  border-radius: 8px;
+}
+
+.home-right {
+  flex: 2;
+  padding-left: 40px;         /* مسافة بين الصورة والمحتوى */
+}
+
+.home-right .name {
+  color: red;
+  font-size: 40px;
+}
+
+.home-right .title {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.home-right .tagline {
+  font-style: italic;
+  margin: 10px 0;
+}
+
+.home-right .desc {
+  margin-top: 20px;
+  line-height: 1.6;
+}
+
+.cta-buttons {
+  margin-top: 25px;
+}
+
+.cta-btn {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 12px 24px;
+  background: #ff4444;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background 0.3s;
+}
+
+.cta-btn:hover {
+  background: #cc0000;
+}
+
+.cta-btn.secondary {
+  background: #333;
+}
+
+.cta-btn.secondary:hover {
+  background: #555;
+}
+.back-home {
+  text-align: center;
+  margin-bottom: 130px; /* مسافة من أسفل */
+}
+
+.back-home a {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #ff4444;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background 0.3s;
+}
+
+.back-home a:hover {
+  background: #cc0000;
+}
